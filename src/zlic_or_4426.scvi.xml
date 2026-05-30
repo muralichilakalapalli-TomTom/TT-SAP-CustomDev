@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCVI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCVI>
+    <SHDSVCI>
+     <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     <PROGNAME>SAPMV45A</PROGNAME>
+     <DYNPRO>4426</DYNPRO>
+     <VERSION>16</VERSION>
+    </SHDSVCI>
+    <SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>1</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>3</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>E</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>F</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>I</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>J</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>L</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>M</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>S</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+     <SHDSVTXCI>
+      <LANGU>T</LANGU>
+      <SCVARIANT>ZLIC_OR_4426</SCVARIANT>
+     </SHDSVTXCI>
+    </SHDSVTXCI>
+   </SCVI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

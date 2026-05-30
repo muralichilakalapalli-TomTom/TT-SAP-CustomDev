@@ -1,0 +1,2228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>I</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>L</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>F</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>1</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>3</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>J</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>S</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>T</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>M</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Printing Billing Documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>D</LANGUAGE>
+     <ID/>
+     <TEXT>Schnittstelle für Druck von Fakturabelegen</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>BIL_PRT_COM-HEAD_DETAIL-VBDKR-BRGEW</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-VBDKR-GEWEI</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>BIL_PRT_COM-HEAD_DETAIL-VBDKR-NTGEW</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-VBDKR-GEWEI</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>BIL_PRT_COM-HEAD_DETAIL-VBDKR-VOLUM</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-VBDKR-VOLEH</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>BIL_PRT_COM-HEAD_DETAIL-CONDITIONS-KAWRT</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-CONDITIONS-AWEI1</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>BIL_PRT_COM-HEAD_DETAIL-CONDITIONS-KBETR</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-CONDITIONS-KOEI1</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>BIL_PRT_COM-HEAD_DETAIL-CONDITIONS-KWERT</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-VBDKR-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>BIL_PRT_COM-HEAD_DETAIL-CONDITIONS-NRMNG</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-CONDITIONS-KMEIN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>BIL_PRT_COM-ITEM_DETAIL-CONDITIONS-KAWRT</VALUE>
+       <UNIT>BIL_PRT_COM-ITEM_DETAIL-CONDITIONS-AWEI1</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>BIL_PRT_COM-ITEM_DETAIL-CONDITIONS-KBETR</VALUE>
+       <UNIT>BIL_PRT_COM-ITEM_DETAIL-CONDITIONS-KOEIN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>BIL_PRT_COM-ITEM_DETAIL-CONDITIONS-KWERT</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-VBDKR-WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>BIL_PRT_COM-ITEM_DETAIL-CONDITIONS-NRMNG</VALUE>
+       <UNIT>BIL_PRT_COM-ITEM_DETAIL-CONDITIONS-KMEIN</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>BIL_PRT_COM-HEAD_DETAIL-VBDKR-NETWR</VALUE>
+       <UNIT>BIL_PRT_COM-HEAD_DETAIL-VBDKR-WAERK</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>TP_FOOTERTEXT_NAME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>KOMVD</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KOMVD</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>KOMK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KOMK</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_HEADING</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR50</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_SUB_HEADING</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR30</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_PERCENTAGE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>US_WAERK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>VBDKR-WAERK</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_AMT1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_AMT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>VBRP-NETWR</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_EXPORT_TEXTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_LANDX</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LANDX</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_STCEG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STCEG</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_VAT_AMOUNT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR30</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_VAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_RATE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PTAGE</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_RATE1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR10</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_RATE_TEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_LAND_SHIPTO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LANDX</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_LAND_SOLDTO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LANDX</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_LAND_SOLDTO_US</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LANDX</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_NETWR1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_KWERT1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_KBETR1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_IMGROSSVALUE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_KAWRT1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_CONDITIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TT_CONDITIONS</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GI_PAYMENT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TT_PAYMENT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_PRICE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_QUAN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GI_SHIPMENT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TT_SHIPMENT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_DATE_TEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_OURVAT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR40</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TP_FOOTER_LANGUAGE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LANGU</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TP_ACCOUNT_NO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EIKTO</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>LST_IN_WORDS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>SPELL</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TP_FINAL_AMOUNT_IN_WORDS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR128</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_XBLNR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR20</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>WA_ITEMPRINT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TWA_ITEMPRINT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>IT_ITEMPRINT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TT_ITEMPRINT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_TEXTLINE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TDLINE</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>TP_EXT_IDEN_DEL_NOTE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LIFEX</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : VISHWJEET SHARMA                                      *</FPCLINE>
+      <FPCLINE>* Date          : 02.02.2008                                            *</FPCLINE>
+      <FPCLINE>* I/E-number    : last no needs to mentioned                            *</FPCLINE>
+      <FPCLINE>* Version FD/TD : 1.0/1.0                                               *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Description   :  ORDER CONFIRMATION / QUOTATION</FPCLINE>
+      <FPCLINE>*                 /Credit Memo/ DEBIT MEMO  /Return Order Confirmation  *</FPCLINE>
+      <FPCLINE>*                  / Free of Charge order / INQUIRY                     *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Change log                                                            *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens                                            *</FPCLINE>
+      <FPCLINE>* Date          : 26-05-2011                                            *</FPCLINE>
+      <FPCLINE>* Change number : #1-25546571 - FR211                                   *</FPCLINE>
+      <FPCLINE>* Mark in code  : #1-25546571-FR211                                     *</FPCLINE>
+      <FPCLINE>* Description   : VTEXT is extended because the German translation was  *</FPCLINE>
+      <FPCLINE>*                 too long                                              *</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;  T  Y  P  E  S       D E C L A R A T I O N</FPCLINE>
+      <FPCLINE>*&amp;</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>TYPES : BEGIN OF t_conditions ,</FPCLINE>
+      <FPCLINE>*        vtext     TYPE text20,    &quot;Description   &quot;-#1-25546571-FR211</FPCLINE>
+      <FPCLINE>         vtext     TYPE text25,    &quot;Description   &quot;+#1-25546571-FR211</FPCLINE>
+      <FPCLINE>         kwert(20) TYPE c,         &quot;Condition value</FPCLINE>
+      <FPCLINE>         kbetr(20) TYPE c,         &quot;Rate (condition amount or percentag</FPCLINE>
+      <FPCLINE>         koein     TYPE koein,     &quot;Rate unit (currency, sales unit, or %)</FPCLINE>
+      <FPCLINE>         kawrt(20) TYPE c,         &quot;Condition base value</FPCLINE>
+      <FPCLINE>       END OF t_conditions,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>        BEGIN OF t_payment,        &quot;For Payment terms</FPCLINE>
+      <FPCLINE>         c1 TYPE string,</FPCLINE>
+      <FPCLINE>         c2(100) TYPE c,</FPCLINE>
+      <FPCLINE>        END OF t_payment,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>        BEGIN OF TY_ITEMPRINT,</FPCLINE>
+      <FPCLINE>          POSNR TYPE STRING,</FPCLINE>
+      <FPCLINE>          BSTNK TYPE BSTNK,</FPCLINE>
+      <FPCLINE>        END OF TY_ITEMPRINT,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;  T  A  B  L  E   T  Y  P  E  S       D E C L A R A T I O N</FPCLINE>
+      <FPCLINE>*&amp;</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>tt_itemprint type standard table of ty_itemprint,</FPCLINE>
+      <FPCLINE>twa_itemprint type ty_itemprint,</FPCLINE>
+      <FPCLINE>tt_conditions TYPE STANDARD TABLE OF t_conditions ,</FPCLINE>
+      <FPCLINE>tt_payment TYPE STANDARD TABLE OF t_payment,</FPCLINE>
+      <FPCLINE>tt_shipment TYPE STANDARD TABLE OF t_payment.</FPCLINE>
+     </TYPES>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>BIL_PRT_COM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BIL_S_PRT_INTERFACE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IM_GROSSVALUE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>FKWRT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GV_DATE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ERDAT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TP_ORIGINAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TP_NR_OF_COPIES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR3</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS>
+      <FPPARAMETER>BIL_PRT_COM-HEAD_DETAIL-VBDKR-VBTYP</FPPARAMETER>
+      <FPPARAMETER>BIL_PRT_COM-HEAD_DETAIL-VBDKR-VBELN</FPPARAMETER>
+      <FPPARAMETER>BIL_PRT_COM-HEAD_DETAIL-VBDKR</FPPARAMETER>
+      <FPPARAMETER>GV_EXPORT_TEXTS</FPPARAMETER>
+      <FPPARAMETER>GV_LANDX</FPPARAMETER>
+      <FPPARAMETER>GV_STCEG</FPPARAMETER>
+      <FPPARAMETER>GV_RATE</FPPARAMETER>
+      <FPPARAMETER>GV_LAND_SHIPTO</FPPARAMETER>
+      <FPPARAMETER>GV_LAND_SOLDTO</FPPARAMETER>
+      <FPPARAMETER>GV_LAND_SOLDTO_US</FPPARAMETER>
+      <FPPARAMETER>GV_DATE</FPPARAMETER>
+      <FPPARAMETER>TP_ACCOUNT_NO</FPPARAMETER>
+      <FPPARAMETER>BIL_PRT_COM-ITEM_DETAIL</FPPARAMETER>
+      <FPPARAMETER>GV_XBLNR</FPPARAMETER>
+     </INPUT_PARAMETERS>
+     <OUTPUT_PARAMETERS>
+      <FPPARAMETER>GV_PERCENTAGE</FPPARAMETER>
+      <FPPARAMETER>US_WAERK</FPPARAMETER>
+      <FPPARAMETER>GV_HEADING</FPPARAMETER>
+      <FPPARAMETER>GV_AMT</FPPARAMETER>
+      <FPPARAMETER>GV_EXPORT_TEXTS</FPPARAMETER>
+      <FPPARAMETER>GV_LANDX</FPPARAMETER>
+      <FPPARAMETER>GV_STCEG</FPPARAMETER>
+      <FPPARAMETER>GV_VAT_AMOUNT</FPPARAMETER>
+      <FPPARAMETER>GV_VAT</FPPARAMETER>
+      <FPPARAMETER>GV_RATE</FPPARAMETER>
+      <FPPARAMETER>GV_RATE_TEXT</FPPARAMETER>
+      <FPPARAMETER>GV_LAND_SHIPTO</FPPARAMETER>
+      <FPPARAMETER>GV_LAND_SOLDTO</FPPARAMETER>
+      <FPPARAMETER>GV_LAND_SOLDTO_US</FPPARAMETER>
+      <FPPARAMETER>GV_NETWR1</FPPARAMETER>
+      <FPPARAMETER>GV_KWERT1</FPPARAMETER>
+      <FPPARAMETER>GV_KAWRT1</FPPARAMETER>
+      <FPPARAMETER>GV_KBETR1</FPPARAMETER>
+      <FPPARAMETER>GV_IMGROSSVALUE</FPPARAMETER>
+      <FPPARAMETER>GV_AMT1</FPPARAMETER>
+      <FPPARAMETER>GV_RATE1</FPPARAMETER>
+      <FPPARAMETER>GT_CONDITIONS</FPPARAMETER>
+      <FPPARAMETER>GV_DATE</FPPARAMETER>
+      <FPPARAMETER>GV_DATE_TEXT</FPPARAMETER>
+      <FPPARAMETER>GV_OURVAT</FPPARAMETER>
+      <FPPARAMETER>TP_ACCOUNT_NO</FPPARAMETER>
+      <FPPARAMETER>GV_XBLNR</FPPARAMETER>
+      <FPPARAMETER>IT_ITEMPRINT</FPPARAMETER>
+      <FPPARAMETER>GV_TEXTLINE</FPPARAMETER>
+      <FPPARAMETER>TP_EXT_IDEN_DEL_NOTE</FPPARAMETER>
+     </OUTPUT_PARAMETERS>
+     <INITIALIZATION>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : VISHWJEET SHARMA                                      *</FPCLINE>
+      <FPCLINE>* Date          : 02.02.2008                                            *</FPCLINE>
+      <FPCLINE>* I/E-number    : last no needs to mentioned                            *</FPCLINE>
+      <FPCLINE>* Version FD/TD : 1.0/1.0                                               *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Description   :  Tax Invoice/ Invoice                                 *</FPCLINE>
+      <FPCLINE>*                 /Credit Memo/ DEBIT MEMO  /Credit Memo Cancellation   *</FPCLINE>
+      <FPCLINE>*                 / Proforma Invoice/ Intercompany Credit Note          *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Change log                                                            *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Nitin Mohan                                           *</FPCLINE>
+      <FPCLINE>* Date          : 17-06-2008                                            *</FPCLINE>
+      <FPCLINE>* Request       : &lt;transport request&gt;                                   *</FPCLINE>
+      <FPCLINE>* I/E-number    : FR040                                                 *</FPCLINE>
+      <FPCLINE>* Reference     :                                                       *</FPCLINE>
+      <FPCLINE>* Version FD/TD : 1.0 / 1.0                                             *</FPCLINE>
+      <FPCLINE>* Description   : Change of tax code from I1 to I2                      *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ellen Muntjewerf                                      *</FPCLINE>
+      <FPCLINE>* Date          : 11-02-2009                                            *</FPCLINE>
+      <FPCLINE>* Request       : &lt;transport request&gt;                                   *</FPCLINE>
+      <FPCLINE>* I/E-number    : FR040                                                 *</FPCLINE>
+      <FPCLINE>* Reference     : Issue #16375                                          *</FPCLINE>
+      <FPCLINE>* Version FD/TD : 1.0 / 1.0                                             *</FPCLINE>
+      <FPCLINE>* Description   : Added TAX_EXEMPT_ES_E1                                *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens - Ctac                                     *</FPCLINE>
+      <FPCLINE>* Date          : 17-03-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #17583 Geo Expansion Cycle 1                          *</FPCLINE>
+      <FPCLINE>* Documenation  : TomTom_FR040_TD_v1.0.doc                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : IVAR-FR203                                            *</FPCLINE>
+      <FPCLINE>* Description   : In relation to the Geo Expansion Project some changes *</FPCLINE>
+      <FPCLINE>*                 had to be made. And also the translations had         *</FPCLINE>
+      <FPCLINE>*                 to be done into Turkish                               *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens - Ctac                                     *</FPCLINE>
+      <FPCLINE>* Date          : 27-04-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #17583 Geo Expansion Cycle 1                          *</FPCLINE>
+      <FPCLINE>* Documenation  : TomTom_FR040_TD_v1.0.doc                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : IVAR27042009                                          *</FPCLINE>
+      <FPCLINE>* Description   : In relation to the Geo Expansion Project some changes *</FPCLINE>
+      <FPCLINE>*                 had to be made in relation to the countries US and CA *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens - Ctac                                     *</FPCLINE>
+      <FPCLINE>* Date          : 20-05-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #19889 - SAP: Invoice adaptation (high urgency)       *</FPCLINE>
+      <FPCLINE>* Documenation  : TomTom_FR040_TD_v1.2.doc                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : IVAR20052009                                          *</FPCLINE>
+      <FPCLINE>* Description   : When in the Customer Master Data the account nr field *</FPCLINE>
+      <FPCLINE>*                 is filled then it should be shown on the invoice      *</FPCLINE>
+      <FPCLINE>*                 And also changes has to be made for &apos;AR&apos; and &apos;BR&apos;     *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Wilco Boosman                                         *</FPCLINE>
+      <FPCLINE>* Date          : 18-06-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #22902 - Add invoice reference to DK/D1               *</FPCLINE>
+      <FPCLINE>* Documenation  : TomTom_FR040_TD_v1.2.doc                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : TRDK906614                                            *</FPCLINE>
+      <FPCLINE>* Description   : Added TAX_EXEMPT_DK_D1                                *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens - Ctac                                     *</FPCLINE>
+      <FPCLINE>* Date          : 01-07-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #24032 Wrong Invoice lay-out for AU15                 *</FPCLINE>
+      <FPCLINE>* Documenation  : TomTom_FR040_TD_v1.2.doc                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : IVAR01072009                                          *</FPCLINE>
+      <FPCLINE>* Description   : When vkorg is AU15 and it is a Debit memo the header  *</FPCLINE>
+      <FPCLINE>*                 should mention &apos;Tax Invoice&quot; and not &apos;Debit Memo&quot;     *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens - Ctac                                     *</FPCLINE>
+      <FPCLINE>* Date          : 27-08-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #25925 Changes made for new WIA invoice               *</FPCLINE>
+      <FPCLINE>* Documenation  :                                                       *</FPCLINE>
+      <FPCLINE>* Mark in code  : #25925                                                *</FPCLINE>
+      <FPCLINE>* Description   :                                                       *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens - Ctac                                     *</FPCLINE>
+      <FPCLINE>* Date          : 01-09-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #26987 - Project: Geographical Expansion phase 2      *</FPCLINE>
+      <FPCLINE>*                 (Czech Republic; Poland; Hungary and Ireland)         *</FPCLINE>
+      <FPCLINE>* Documenation  : FR204 Changes to invoice                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : #26987                                                *</FPCLINE>
+      <FPCLINE>* Description   : - The total amount should be shown in words.          *</FPCLINE>
+      <FPCLINE>*                 - Original and Copy should be printed on the invoice. *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens - Ctac                                     *</FPCLINE>
+      <FPCLINE>* Date          : 17-09-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #27370 SAP/AR - Specification on 2nd copy of billing  *</FPCLINE>
+      <FPCLINE>*                 document                                              *</FPCLINE>
+      <FPCLINE>* Documenation  : FR204 Changes to invoice                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : #27370                                                *</FPCLINE>
+      <FPCLINE>* Description   : - If table ZVKORGCOPY contains a correct entry.       *</FPCLINE>
+      <FPCLINE>*                   Then the word &apos;Copy&apos; should be printed on the       *</FPCLINE>
+      <FPCLINE>*                   invoice.                                            *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ruud Meester                                          *</FPCLINE>
+      <FPCLINE>* Date          : 20-10-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #27763 - EDI Automotive                               *</FPCLINE>
+      <FPCLINE>* Documenation  : TomTom_FR040_TD_v1.2.doc                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : RUME20102009                                          *</FPCLINE>
+      <FPCLINE>* Description   : When in the Customer Master Data the account nr field *</FPCLINE>
+      <FPCLINE>*                 KNB1-EIKTO is filled then it should be printed on the *</FPCLINE>
+      <FPCLINE>*                 invoice (earlier KNVV-EIKTO was used but htis field   *</FPCLINE>
+      <FPCLINE>*                 is needed for EDI                                     *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ruud Meester                                          *</FPCLINE>
+      <FPCLINE>* Date          : 20-10-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #25925a - WIA Invoice                                 *</FPCLINE>
+      <FPCLINE>* Mark in code  : #25925a                                               *</FPCLINE>
+      <FPCLINE>* Description   : For WIA invoices a special tax text needs to be prin- *</FPCLINE>
+      <FPCLINE>*                 ted for German invoices                               *</FPCLINE>
+      <FPCLINE>*-----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ruud Meester                                          *</FPCLINE>
+      <FPCLINE>* Date          : 18-11-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #30361    Currency addition                           *</FPCLINE>
+      <FPCLINE>* Mark in code  : #30361                                                *</FPCLINE>
+      <FPCLINE>* Description   : Addition of currency for currencies without decimals  *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ruud Meester                                          *</FPCLINE>
+      <FPCLINE>* Date          : 09-12-2009                                            *</FPCLINE>
+      <FPCLINE>* Change number : #27763    EDI Automotive                              *</FPCLINE>
+      <FPCLINE>* Mark in code  : #27763                                                *</FPCLINE>
+      <FPCLINE>* Description   : Print BL number for automotive                        *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ron Hogeboom                                          *</FPCLINE>
+      <FPCLINE>* Date          : 10-02-2010                                            *</FPCLINE>
+      <FPCLINE>* Change number : #1-12523991                                           *</FPCLINE>
+      <FPCLINE>* Mark in code  : RHO-20100211                                          *</FPCLINE>
+      <FPCLINE>* Description   : Problem with VAT percentage in Hungarian currency     *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens                                            *</FPCLINE>
+      <FPCLINE>* Date          : 24-03-2010                                            *</FPCLINE>
+      <FPCLINE>* Change number : ??                                                    *</FPCLINE>
+      <FPCLINE>* Mark in code  : IVAR-24032010                                         *</FPCLINE>
+      <FPCLINE>* Description   : Price condition Handling Fee was not correct on the   *</FPCLINE>
+      <FPCLINE>*                 output..                                              *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ruud Meester                                          *</FPCLINE>
+      <FPCLINE>* Date          : 03-02-2011                                            *</FPCLINE>
+      <FPCLINE>* Change number : 1-23167251                                            *</FPCLINE>
+      <FPCLINE>* Mark in code  : 1-23167251                                            *</FPCLINE>
+      <FPCLINE>* Description   : Use a tabel for tax texts                             *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ruud Meester                                          *</FPCLINE>
+      <FPCLINE>* Date          : 07-02-2011                                            *</FPCLINE>
+      <FPCLINE>* Change number : 1-22056771                                            *</FPCLINE>
+      <FPCLINE>* Mark in code  : 1-22056771                                            *</FPCLINE>
+      <FPCLINE>* Description   : 3 decimals for exchange rate                          *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ellen Muntjewerf                                      *</FPCLINE>
+      <FPCLINE>* Date          : 18-04-2011                                            *</FPCLINE>
+      <FPCLINE>* Change number : 1-25513811                                            *</FPCLINE>
+      <FPCLINE>* Mark in code  : 1-25513811                                            *</FPCLINE>
+      <FPCLINE>* Description   : change naming polish credit notes to from             *</FPCLINE>
+      <FPCLINE>*                 &quot;Nota Kreytowa&quot; to &quot;Faktura korygujaca&quot;               *</FPCLINE>
+      <FPCLINE>*                                                                       *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ivo Ariens                                            *</FPCLINE>
+      <FPCLINE>* Date          : 05-05-2011                                            *</FPCLINE>
+      <FPCLINE>* Change number : #1-25546571 - FR211                                   *</FPCLINE>
+      <FPCLINE>* Mark in code  : #1-25546571-FR211                                     *</FPCLINE>
+      <FPCLINE>* Description   : For InCar a new invoice has been created (Output ZD02)*</FPCLINE>
+      <FPCLINE>*                 Additional data had to be selected:                   *</FPCLINE>
+      <FPCLINE>*                 - External Identification Of Delivery Note(LIKP-LIFEX)*</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ron Hogeboom                                          *</FPCLINE>
+      <FPCLINE>* Date          : 19-05-2011                                            *</FPCLINE>
+      <FPCLINE>* Change number : TBD                                                   *</FPCLINE>
+      <FPCLINE>* Mark in code  : RHO20110519                                           *</FPCLINE>
+      <FPCLINE>* Description   : For Places the footer text should be different per    *</FPCLINE>
+      <FPCLINE>*                 country. The footer text must be maintained as        *</FPCLINE>
+      <FPCLINE>*                 NL45_FOOTER_XX where XX is the delivering country     *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ron Hogeboom                                          *</FPCLINE>
+      <FPCLINE>* Date          : 27-05-2011                                            *</FPCLINE>
+      <FPCLINE>* Change number : TBD                                                   *</FPCLINE>
+      <FPCLINE>* Mark in code  : RHO20110527                                           *</FPCLINE>
+      <FPCLINE>* Description   : Change text credit note for CZ15                      *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>* Author        : Ron Hogeboom                                          *</FPCLINE>
+      <FPCLINE>* Date          : 21-11-2011                                            *</FPCLINE>
+      <FPCLINE>* Change number : 1-32833941                                            *</FPCLINE>
+      <FPCLINE>* Mark in code  : RHO20111123                                           *</FPCLINE>
+      <FPCLINE>* Description   : Special logic for maintaining footer texts per        *</FPCLINE>
+      <FPCLINE>*                 if not found, use standard text                       *</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;  V A R I A B L E S        D E C L A R A T I O N</FPCLINE>
+      <FPCLINE>*&amp;</FPCLINE>
+      <FPCLINE>*&amp;----------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA : lv_heading(50)   TYPE c,                           &quot;HEADER DISPLAY</FPCLINE>
+      <FPCLINE>       lv_stceg         TYPE stceg,                       &quot;VAT Registration Number</FPCLINE>
+      <FPCLINE>       lv_land1         TYPE land1,                       &quot;Country Key</FPCLINE>
+      <FPCLINE>       lv_price         TYPE string,                      &quot;text for price</FPCLINE>
+      <FPCLINE>       lv_quan          TYPE string,                      &quot;text for quantity</FPCLINE>
+      <FPCLINE>       lv_mwsk1         TYPE konv-mwsk1,                  &quot;Tax code</FPCLINE>
+      <FPCLINE>* insert #25925a</FPCLINE>
+      <FPCLINE>       lv_wia           TYPE konv-mwsk1,                  &quot;Tax code for WIA</FPCLINE>
+      <FPCLINE>* end insert #25925a</FPCLINE>
+      <FPCLINE>       lv_rate          TYPE tcurr-ukurs,                 &quot;Exchange Rate</FPCLINE>
+      <FPCLINE>* insert 1-22056771</FPCLINE>
+      <FPCLINE>       lv_rate3         TYPE przn2,                       &quot;Exchange rate with 3 dec</FPCLINE>
+      <FPCLINE>* end insert 1-22056771</FPCLINE>
+      <FPCLINE>       lv_fact1         TYPE tcurr-ffact,                 &quot;Ratio for the &quot;From&quot; Currency Units</FPCLINE>
+      <FPCLINE>       lv_fact2               TYPE tcurr-ffact,           &quot;Ratio for the &quot;From&quot; Currency Units</FPCLINE>
+      <FPCLINE>       lv_text1               TYPE text1,                 &quot;Own explanation payment term</FPCLINE>
+      <FPCLINE>       lv_footertext_name     TYPE char20,                &quot;+RHO20111123</FPCLINE>
+      <FPCLINE>       lv_date1               TYPE sy-datum,              &quot;System date</FPCLINE>
+      <FPCLINE>       ltp_kwert              TYPE kwert.                 &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;  T A B L E S         D E C L A R A T I O N</FPCLINE>
+      <FPCLINE>*&amp;</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>TABLES: STXH.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA :           lwa_condition            TYPE t_conditions ,                      &quot;wa for conditions</FPCLINE>
+      <FPCLINE>                 lwa_condition1           TYPE t_conditions ,                      &quot;wa for conditions</FPCLINE>
+      <FPCLINE>                 lwa_conditions           TYPE komvd ,                             &quot;wa for conditions</FPCLINE>
+      <FPCLINE>                 lwa_itemconditions       TYPE komvd ,                             &quot;wa for conditions</FPCLINE>
+      <FPCLINE>                 li_string                TYPE STANDARD TABLE OF vtopis,           &quot;int table for Information Structure for Installment Payment Terms</FPCLINE>
+      <FPCLINE>                 lwa_string               TYPE vtopis,                             &quot;wa for Information Structure for Installment Payment Terms</FPCLINE>
+      <FPCLINE>                 li_payment               TYPE STANDARD TABLE OF t_payment,        &quot;int table for payment terms</FPCLINE>
+      <FPCLINE>                 lwa_payment              TYPE t_payment,                          &quot;wa for payment terms</FPCLINE>
+      <FPCLINE>                 lwa_shipment             TYPE t_payment ,                         &quot;wa for payment terms</FPCLINE>
+      <FPCLINE>                 li_shipment              TYPE STANDARD TABLE OF t_payment,        &quot;int table for payment terms</FPCLINE>
+      <FPCLINE>                 li_t052u                 TYPE STANDARD TABLE OF t052u,            &quot;Internal table for own explanation payment term</FPCLINE>
+      <FPCLINE>                 lwa_item_detail          TYPE bil_s_prt_item_detail, &quot;+#25925</FPCLINE>
+      <FPCLINE>                 ltp_grossvalue_wia       TYPE fkwrt,       &quot;+#25925</FPCLINE>
+      <FPCLINE>                 lwa_item_condition       TYPE zkomvd,      &quot;+#25925</FPCLINE>
+      <FPCLINE>                 lwa_ztcurt               TYPE ztcurt,      &quot;+#26987</FPCLINE>
+      <FPCLINE>                 lwa_zvkorgcopy           TYPE zvkorgcopy.  &quot;+#27370</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA:          lst_kna1                 TYPE kna1.                               &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>lv_date1 = sy-datum .</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;  C O N S T A N T S   D E C L A R A T I O N</FPCLINE>
+      <FPCLINE>*&amp;</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>CONSTANTS :</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_rate_text         TYPE  string  VALUE  &apos;Exchange Rate&apos; ,           &quot;Constant for Exchange Rate</FPCLINE>
+      <FPCLINE>                  lc_fr_f2             TYPE  string  VALUE  &apos;TAX_EXEMPT_FR_F2&apos; ,        &quot;Constant for tax F2</FPCLINE>
+      <FPCLINE>                  lc_de_g3             TYPE  string  VALUE  &apos;TAX_EXEMPT_DE_G3&apos; ,        &quot;Constant for tax G3</FPCLINE>
+      <FPCLINE>                  lc_it_i2             TYPE  string  VALUE  &apos;TAX_EXEMPT_IT_I2&apos; ,        &quot;Constant for tax I2</FPCLINE>
+      <FPCLINE>                  lc_nl_no             TYPE  string  VALUE  &apos;TAX_EXEMPT_NL_N0&apos; ,        &quot;Constant for tax N0</FPCLINE>
+      <FPCLINE>                  lc_nl_n3             TYPE  string  VALUE  &apos;TAX_EXEMPT_NL_N3&apos; ,        &quot;Constant for tax N3</FPCLINE>
+      <FPCLINE>                  lc_nl_n4             TYPE  string  VALUE  &apos;TAX_EXEMPT_NL_N4&apos; ,        &quot;Constant for tax N4</FPCLINE>
+      <FPCLINE>                  lc_nl_n5             TYPE  string  VALUE  &apos;TAX_EXEMPT_NL_N5&apos; ,        &quot;Constant for tax N5</FPCLINE>
+      <FPCLINE>                  lc_nl_n6             TYPE  string  VALUE  &apos;TAX_EXEMPT_NL_N6&apos; ,        &quot;Constant for tax N6</FPCLINE>
+      <FPCLINE>                  lc_nl_n9             TYPE  string  VALUE  &apos;TAX_EXEMPT_NL_N9&apos; ,        &quot;Constant for tax N9</FPCLINE>
+      <FPCLINE>                  lc_fr_f5             TYPE  string  VALUE  &apos;TAX_EXEMPT_FR_F5&apos; ,        &quot;Constant for tax F5</FPCLINE>
+      <FPCLINE>                  lc_fr_f7             TYPE  string  VALUE  &apos;TAX_EXEMPT_FR_F7&apos; ,        &quot;Constant for tax F7</FPCLINE>
+      <FPCLINE>                  lc_de_g5             TYPE  string  VALUE  &apos;TAX_EXEMPT_DE_G5&apos; ,        &quot;Constant for tax G5</FPCLINE>
+      <FPCLINE>                  lc_de_g7             TYPE  string  VALUE  &apos;TAX_EXEMPT_DE_G7&apos; ,        &quot;Constant for tax G7</FPCLINE>
+      <FPCLINE>                  lc_gb_u5             TYPE  string  VALUE  &apos;TAX_EXEMPT_GB_U5&apos; ,        &quot;Constant for tax U5</FPCLINE>
+      <FPCLINE>                  lc_es_e1             TYPE  string  VALUE  &apos;TAX_EXEMPT_ES_E1&apos; ,        &quot;Constant for tax E1</FPCLINE>
+      <FPCLINE>                  lc_dk_d1             TYPE  string  VALUE  &apos;TAX_EXEMPT_DK_D1&apos; ,        &quot;Constant for tax D1</FPCLINE>
+      <FPCLINE>* insert #25925a</FPCLINE>
+      <FPCLINE>                  lc_de_g5_wia         TYPE  string  VALUE  &apos;TAX_WIA_DE_G5&apos;,            &quot;Constant for WIA G5</FPCLINE>
+      <FPCLINE>                  lc_u5_wia            TYPE  string  VALUE  &apos;TAX_WIA_U5&apos;,               &quot;Constant for WIA U5</FPCLINE>
+      <FPCLINE>                  lc_n5_wia            TYPE  string  VALUE  &apos;TAX_WIA_N5&apos;,               &quot;Constant for WIA N5</FPCLINE>
+      <FPCLINE>                  lc_h5_wia            TYPE  string  VALUE  &apos;TAX_WIA_H5&apos;,               &quot;Constant for WIA H5</FPCLINE>
+      <FPCLINE>                  lc_s5_wia            TYPE  string  VALUE  &apos;TAX_WIA_S5&apos;,               &quot;Constant for WIA S5</FPCLINE>
+      <FPCLINE>                  lc_r5_wia            TYPE  string  VALUE  &apos;TAX_WIA_R5&apos;,               &quot;Constant for WIA R5</FPCLINE>
+      <FPCLINE>* end insert #25925a</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_vat_amt           TYPE  string  VALUE  &apos;VAT Amount&apos;,               &quot;Constant for VAT amount</FPCLINE>
+      <FPCLINE>                  lc_head_m            TYPE  string  VALUE  &apos;M&apos; ,                       &quot;Constant for M</FPCLINE>
+      <FPCLINE>                  lc_head_n            TYPE  string  VALUE  &apos;N&apos; ,                       &quot;Constant for N</FPCLINE>
+      <FPCLINE>                  lc_head_au15         TYPE  string  VALUE  &apos;AU15&apos; ,                    &quot;Constant for AU15</FPCLINE>
+      <FPCLINE>                  lc_head_za15         TYPE  string  VALUE  &apos;ZA15&apos; ,                    &quot;Constant for ZA15 &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>                  lc_head_cz15         TYPE  string  VALUE  &apos;CZ15&apos; ,                    &quot;Constant for CZ15 &quot;+RHO20110527</FPCLINE>
+      <FPCLINE>                  lc_head_nz15         TYPE  string  VALUE  &apos;NZ15&apos; ,                    &quot;Constant for NZ15 &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>                  lc_head_tr15         TYPE  string  VALUE  &apos;TR15&apos; ,                    &quot;Constant for TR15 &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>                  lc_head_pl15         TYPE  string  VALUE  &apos;PL15&apos; ,                    &quot;Constant for PL15 &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>                  lc_head_hu15         TYPE  string  VALUE  &apos;HU15&apos; ,                    &quot;Constant for HU15 &quot;+#26987</FPCLINE>
+      <FPCLINE>                  lc_head_nl45         TYPE  string  VALUE  &apos;NL45&apos; ,                    &quot;Constant for NL45 &quot;+RHO20110519</FPCLINE>
+      <FPCLINE>                  lc_head_o            TYPE  string  VALUE  &apos;O&apos; ,                       &quot;Constant for O</FPCLINE>
+      <FPCLINE>                  lc_head_s            TYPE  string  VALUE  &apos;S&apos; ,                       &quot;Constant for S</FPCLINE>
+      <FPCLINE>                  lc_head_p            TYPE  string  VALUE  &apos;P&apos; ,                       &quot;Constant for P</FPCLINE>
+      <FPCLINE>                  lc_head_u            TYPE  string  VALUE  &apos;U&apos; ,                       &quot;Constant for U</FPCLINE>
+      <FPCLINE>                  lc_head_5            TYPE  string  VALUE  &apos;5&apos; ,                       &quot;Constant for 5</FPCLINE>
+      <FPCLINE>                  lc_head_6            TYPE  string  VALUE  &apos;6&apos; ,                       &quot;Constant for 6</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_quan1             TYPE  string  VALUE  &apos;Cond.   Base Value&apos;,       &quot;Constant for Cond. Base Value</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_price1            TYPE  string  VALUE  &apos;% / Price&apos; ,               &quot;Constant for % / Price</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_rebate_claim      TYPE  string  VALUE    &apos;Credit Memo&apos; ,           &quot;Constant for Credit memo</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_price_text        TYPE  string VALUE &apos;Price&apos; ,                     &quot;Constant for Price</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_quant_text        TYPE  string VALUE &apos;Quantity&apos; ,                  &quot;Constant for Quantity</FPCLINE>
+      <FPCLINE>                  lc_fkart_re          TYPE  string VALUE &apos;RE&apos; ,                        &quot;Constant for RE</FPCLINE>
+      <FPCLINE>                  lc_us10              TYPE  string VALUE &apos;US10&apos; ,                      &quot;Constant for US10</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_payment_terms     TYPE  string VALUE &apos;Payment terms&apos;  ,            &quot;Constant for Payment terms</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_ship_method       TYPE  string VALUE &apos;Shipment method&apos; ,           &quot;Constant for Shipment method</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_tax_inv           TYPE  string VALUE &apos;Tax Invoice&apos; ,               &quot;Constant for Tax Invoice</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_inv               TYPE string VALUE &apos;Invoice&apos; ,                    &quot;Constant for Invoice</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_credit_memo       TYPE string VALUE &apos;Credit Memo&apos; ,                &quot;Constant for Credit Memo</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_credit_canc       TYPE string VALUE &apos;Credit Memo Cancellation&apos; ,   &quot;Constant for Credit Memo Cancellation</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_debit_memo        TYPE string VALUE &apos;Debit Memo&apos; ,                 &quot;Constant for Debit Memo</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_proforma_inv      TYPE string VALUE &apos;Proforma Invoice&apos; ,           &quot;Constant for Proforma Invoice</FPCLINE>
+      <FPCLINE>                  lc_inter_inv         TYPE string VALUE &apos;Intercompany Invoice&apos; ,       &quot;Constant for Inercompany Invoice</FPCLINE>
+      <FPCLINE>                  lc_intercredit_note  TYPE string VALUE &apos;Intercompany Credit Note&apos; ,   &quot;Constant for Inercompany Credit Note</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_inv_cancel        TYPE string VALUE &apos;Invoice Cancellation&apos;,        &quot;Constant for Invoice Cancellation</FPCLINE>
+      <FPCLINE>                  lc_d                 TYPE c      VALUE &apos;D&apos; ,                          &quot;Constant for D</FPCLINE>
+      <FPCLINE>                  lc_b1                TYPE char3  VALUE &apos;B1&apos; ,                         &quot;Constant for B1</FPCLINE>
+      <FPCLINE>                  lc_b2                TYPE char3  VALUE &apos;B2&apos; ,                         &quot;Constant for B2</FPCLINE>
+      <FPCLINE>                  lc_b3                TYPE char3  VALUE &apos;B3&apos; ,                         &quot;Constant for B3</FPCLINE>
+      <FPCLINE>                  lc_b3e               TYPE char3 VALUE &apos;B3E&apos; ,                         &quot;Constant for B3E</FPCLINE>
+      <FPCLINE>                  lc_b1e               TYPE char3 VALUE &apos;B1E&apos; ,                          &quot;Constant for B1E</FPCLINE>
+      <FPCLINE>                  lc_b2e               TYPE char3 VALUE &apos;B2E&apos; ,                         &quot;Constant for B2E</FPCLINE>
+      <FPCLINE>                  lc_zero(4)           TYPE c     VALUE &apos;0.00&apos;,                         &quot;Constant for 0.00</FPCLINE>
+      <FPCLINE>                  lc_per               TYPE c     VALUE &apos;%&apos;,                            &quot;Constant for %</FPCLINE>
+      <FPCLINE>                  lc_ten(2)            TYPE c     VALUE &apos;10&apos;,                           &quot;Constant for 10</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_itemtot           TYPE string  VALUE &apos;Items total&apos;,                &quot;Constant for Items total</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_finamt            TYPE string  VALUE &apos;Final amount&apos;,               &quot;Constant for Final amount</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_vat               TYPE string  VALUE &apos;Vat registration no&apos;,        &quot;Constant for Vat registration no</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_doccurr           TYPE string  VALUE &apos;Document currency&apos;,          &quot;Constant for Document currency</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_shipdate          TYPE string  VALUE &apos;Shipment date&apos;,              &quot;Constant for Shipment date</FPCLINE>
+      <FPCLINE>*-IVAR-FR203      lc_retdate           TYPE string  VALUE &apos;Return date&apos;,                &quot;Constant for Return date</FPCLINE>
+      <FPCLINE>                  lc_f2(2)             TYPE c       VALUE &apos;F2&apos;,                         &quot;Constant for F2</FPCLINE>
+      <FPCLINE>                  lc_f5(2)             TYPE c       VALUE &apos;F5&apos;,                         &quot;Constant for F5</FPCLINE>
+      <FPCLINE>                  lc_f7(2)             TYPE c       VALUE &apos;F7&apos;,                         &quot;Constant for F7</FPCLINE>
+      <FPCLINE>                  lc_fr(2)             TYPE c       VALUE &apos;FR&apos;,                         &quot;Constant for FR</FPCLINE>
+      <FPCLINE>                  lc_g3(2)             TYPE c       VALUE &apos;G3&apos;,                         &quot;Constant for G3</FPCLINE>
+      <FPCLINE>                  lc_g5(2)             TYPE c       VALUE &apos;G5&apos;,                         &quot;Constant for G5</FPCLINE>
+      <FPCLINE>                  lc_g7(2)             TYPE c       VALUE &apos;G7&apos;,                         &quot;Constant for G7</FPCLINE>
+      <FPCLINE>                  lc_de(2)             TYPE c       VALUE &apos;DE&apos;,                         &quot;Constant for DE</FPCLINE>
+      <FPCLINE>                  lc_gb(2)             TYPE c       VALUE &apos;GB&apos;,                         &quot;Constant for GB</FPCLINE>
+      <FPCLINE>                  lc_u5(2)             TYPE c       VALUE &apos;U5&apos;,                         &quot;Constant for U5</FPCLINE>
+      <FPCLINE>                  lc_n3(2)             TYPE c       VALUE &apos;N3&apos;,                         &quot;Constant for N3</FPCLINE>
+      <FPCLINE>                  lc_n4(2)             TYPE c       VALUE &apos;N4&apos;,                         &quot;Constant for N4</FPCLINE>
+      <FPCLINE>                  lc_n5(2)             TYPE c       VALUE &apos;N5&apos;,                         &quot;Constant for N5</FPCLINE>
+      <FPCLINE>                  lc_n6(2)             TYPE c       VALUE &apos;N6&apos;,                         &quot;Constant for N6</FPCLINE>
+      <FPCLINE>                  lc_n9(2)             TYPE c       VALUE &apos;N9&apos;,                         &quot;Constant for N9</FPCLINE>
+      <FPCLINE>                  lc_i2(2)             TYPE c       VALUE &apos;I2&apos;,                         &quot;Constant for I2</FPCLINE>
+      <FPCLINE>                  lc_it(2)             TYPE c       VALUE &apos;IT&apos;,                         &quot;Constant for IT</FPCLINE>
+      <FPCLINE>                  lc_n0(2)             TYPE c       VALUE &apos;N0&apos;,                         &quot;Constant for N0</FPCLINE>
+      <FPCLINE>                  lc_nl(2)             TYPE c       VALUE &apos;NL&apos;,                         &quot;Constant for NL</FPCLINE>
+      <FPCLINE>                  lc_es(2)             TYPE c       VALUE &apos;ES&apos;,                         &quot;Constant for ES</FPCLINE>
+      <FPCLINE>                  lc_e1(2)             TYPE c       VALUE &apos;E1&apos;,                         &quot;Constant for E1</FPCLINE>
+      <FPCLINE>                  lc_dk(2)             TYPE c       VALUE &apos;DK&apos;,                         &quot;Constant for DK</FPCLINE>
+      <FPCLINE>                  lc_d1(2)             TYPE c       VALUE &apos;D1&apos;,                         &quot;Constant for D1</FPCLINE>
+      <FPCLINE>                  lco_wia              TYPE fkart   VALUE &apos;WIA&apos;, &quot;+#25925</FPCLINE>
+      <FPCLINE>* insert #25925a</FPCLINE>
+      <FPCLINE>                  lc_wiac              TYPE kschl   VALUE &apos;WIA2&apos;.</FPCLINE>
+      <FPCLINE>* end insert #25925a</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*+Start insertion IVAR-FR203</FPCLINE>
+      <FPCLINE>DATA:</FPCLINE>
+      <FPCLINE>      ltp_rate_text       TYPE string,  &quot;Variable for Exchange Rate</FPCLINE>
+      <FPCLINE>      ltp_vat_amt         TYPE string,  &quot;Variable for VAT amount</FPCLINE>
+      <FPCLINE>      ltp_quan1           TYPE string,  &quot;Variable for Cond. Base Value</FPCLINE>
+      <FPCLINE>      ltp_price1          TYPE string,  &quot;Variable for % / Price</FPCLINE>
+      <FPCLINE>      ltp_rebate_claim    TYPE string,  &quot;Variable for Credit memo</FPCLINE>
+      <FPCLINE>      ltp_price_text      TYPE string,  &quot;Variable for Price</FPCLINE>
+      <FPCLINE>      ltp_quant_text      TYPE string,  &quot;Variable for Quantity</FPCLINE>
+      <FPCLINE>      ltp_payment_terms   TYPE string,  &quot;Variable for Payment terms</FPCLINE>
+      <FPCLINE>      ltp_ship_method     TYPE string,  &quot;Variable for Shipment method</FPCLINE>
+      <FPCLINE>      ltp_tax_inv         TYPE string,  &quot;Variable for Tax Invoice</FPCLINE>
+      <FPCLINE>      ltp_inv             TYPE string,  &quot;Variable for Invoice</FPCLINE>
+      <FPCLINE>      ltp_credit_memo     TYPE string,  &quot;Variable for Credit Memo</FPCLINE>
+      <FPCLINE>      ltp_credit_canc     TYPE string,  &quot;Variable for Credit Memo Cancellation</FPCLINE>
+      <FPCLINE>      ltp_debit_memo      TYPE string,  &quot;Variable for Debit Memo</FPCLINE>
+      <FPCLINE>      ltp_proforma_inv    TYPE string,  &quot;Variable for Proforma Invoice</FPCLINE>
+      <FPCLINE>      ltp_inv_cancel      TYPE string,  &quot;Variable for Invoice Cancellation</FPCLINE>
+      <FPCLINE>      ltp_itemtot         TYPE string,  &quot;Variable for Items total</FPCLINE>
+      <FPCLINE>      ltp_finamt          TYPE string,  &quot;Variable for Final amount</FPCLINE>
+      <FPCLINE>      ltp_vat             TYPE string,  &quot;Variable for Vat registration no</FPCLINE>
+      <FPCLINE>      ltp_business_nr     TYPE string,  &quot;Variable for Business Number    &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>      ltp_doccurr         TYPE string,  &quot;Variable for Document currency</FPCLINE>
+      <FPCLINE>      ltp_shipdate        TYPE string,  &quot;Variable for Shipment date</FPCLINE>
+      <FPCLINE>      ltp_retdate         TYPE string,  &quot;Variable for Return date</FPCLINE>
+      <FPCLINE>      ltp_out_vat_reg_no  TYPE string,  &quot;Variable for Our VAT registration number</FPCLINE>
+      <FPCLINE>      ltp_original        TYPE string,  &quot;Variable for Sub Heading &quot;Original&quot;  &quot;+#26987</FPCLINE>
+      <FPCLINE>      ltp_copy            TYPE string,  &quot;Variable for Sub Heading &quot;Copy&quot;      &quot;+#26987</FPCLINE>
+      <FPCLINE>* Insert 1-23167251</FPCLINE>
+      <FPCLINE>      lv_ztaxtext         TYPE text100, &quot;Variable for ZTAXTEXT</FPCLINE>
+      <FPCLINE>* End Inster 1-23167251</FPCLINE>
+      <FPCLINE>      ltp_already_translated TYPE c.                        &quot;+#26987</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA: IT_TEXT TYPE STANDARD TABLE OF TLINE.</FPCLINE>
+      <FPCLINE>DATA: WA_TEXT LIKE  LINE OF IT_TEXT.</FPCLINE>
+      <FPCLINE>data: lv_vbeln type THEAD-TDNAME.</FPCLINE>
+      <FPCLINE>data: lv_spras type TDSPRAS.</FPCLINE>
+      <FPCLINE>*- The perform below have been added because these Texts where hard-code</FPCLINE>
+      <FPCLINE>*- In this way this is more flexible</FPCLINE>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_EXCHANGE_RATE&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_rate_text.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_VAT_AMOUNT&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_vat_amt.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_COND_BASE_VALUE&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_quan1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_PRICE&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_price1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_REBATE_CLAIM&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_rebate_claim.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_PRICE_TEXT&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_price_text.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_QUANT_TEXT&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_quant_text.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_PAYMENT_TERMS&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_payment_terms.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_SHIP_METHOD&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_ship_method.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_TAX_INVOICE&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_tax_inv.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_INVOICE_DESCR&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_inv.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_CREDIT_MEMO&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_credit_memo.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_CREDIT_CANC&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_credit_canc.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_DEBIT_MEMO&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_debit_memo.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_PROFORMA_INVOICE&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_proforma_inv.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_INV_CANCEL&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_inv_cancel.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_ITEMS_TOTAL&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_itemtot.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_FINAL_AMOUNT&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_finamt.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_VAT_REG_NO&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_vat.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_BUS_NR&apos;         &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu      &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_business_nr.             &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_DOCUMENT_CURRENCY&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_doccurr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_SHIPMENT_DATE&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_shipdate.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_RETURN_DATE&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_retdate.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_OUR_VAT_REG_NO&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_out_vat_reg_no.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*-Start insertion #26987</FPCLINE>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_ORIGINAL&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_original.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_COPY&apos;</FPCLINE>
+      <FPCLINE>                                            /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                   CHANGING ltp_copy.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Determine the language in which the footer should be printed</FPCLINE>
+      <FPCLINE>CLEAR: tp_footer_language.</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-vkorg EQ lc_head_tr15.    &quot;When Turkish</FPCLINE>
+      <FPCLINE>*- Language of the customer</FPCLINE>
+      <FPCLINE>  tp_footer_language = bil_prt_com-head_detail-vbdkr-spras.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>*- Language of the Sales Organisation</FPCLINE>
+      <FPCLINE>  tp_footer_language = bil_prt_com-head_detail-vbdkr-spras_vko.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*+End insertion IVAR-FR203</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>** logic to fetch data from Customer master**</FPCLINE>
+      <FPCLINE>SELECT SINGLE stceg land1  FROM kna1 INTO (lv_stceg,lv_land1)</FPCLINE>
+      <FPCLINE>WHERE kunnr = bil_prt_com-head_detail-tvko-kunnr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>IF sy-subrc EQ 0 AND lv_stceg IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  MOVE lv_stceg TO  gv_stceg.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CLEAR lv_stceg .</FPCLINE>
+      <FPCLINE>**logic to fetch data from Country Names**</FPCLINE>
+      <FPCLINE>SELECT SINGLE landx INTO gv_landx FROM t005t WHERE</FPCLINE>
+      <FPCLINE>                          land1 = bil_prt_com-head_detail-vbdkr-land1 AND</FPCLINE>
+      <FPCLINE>                          spras = bil_prt_com-head_detail-vbdkr-spras.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>********************************* Header of the form*****************************</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CLEAR: ltp_already_translated.                              &quot;+#26987</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-fkart NE lco_wia.          &quot;+#25925</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_m AND</FPCLINE>
+      <FPCLINE>*      bil_prt_com-head_detail-vbdkr-vkorg = lc_head_au15. &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>*+Start insertion IVAR-FR203</FPCLINE>
+      <FPCLINE>       ( bil_prt_com-head_detail-vbdkr-vkorg = lc_head_au15 OR</FPCLINE>
+      <FPCLINE>         bil_prt_com-head_detail-vbdkr-vkorg = lc_head_za15 OR</FPCLINE>
+      <FPCLINE>         bil_prt_com-head_detail-vbdkr-vkorg = lc_head_nz15 OR</FPCLINE>
+      <FPCLINE>         bil_prt_com-head_detail-vbdkr-vkorg = lc_head_tr15 OR</FPCLINE>
+      <FPCLINE>         bil_prt_com-head_detail-vbdkr-vkorg = lc_head_pl15 ).</FPCLINE>
+      <FPCLINE>*+End insertion IVAR-FR203</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion #26987</FPCLINE>
+      <FPCLINE>*- Only for PL15 the description should be translated into polish.</FPCLINE>
+      <FPCLINE>*- Normally this should be done via above mentioned perform but the PL language</FPCLINE>
+      <FPCLINE>*- hasn&apos;t been imported into SAP so no translation could be made in SAP.</FPCLINE>
+      <FPCLINE>    CASE bil_prt_com-head_detail-vbdkr-vkorg.</FPCLINE>
+      <FPCLINE>      WHEN lc_head_pl15.    &quot;When Polish</FPCLINE>
+      <FPCLINE>*- Tax invoices</FPCLINE>
+      <FPCLINE>        CONCATENATE ltp_tax_inv &apos;/Faktura VAT&apos; INTO ltp_tax_inv.</FPCLINE>
+      <FPCLINE>        ltp_already_translated = &apos;X&apos;.</FPCLINE>
+      <FPCLINE>      WHEN OTHERS.</FPCLINE>
+      <FPCLINE>    ENDCASE.</FPCLINE>
+      <FPCLINE>*- End insertion #26987</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* lv_heading = lc_tax_inv.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    lv_heading = ltp_tax_inv.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  ELSEIF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_m.</FPCLINE>
+      <FPCLINE>    lv_heading = ltp_inv.</FPCLINE>
+      <FPCLINE>  ELSEIF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_o.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion #26987</FPCLINE>
+      <FPCLINE>*- Only for PL15 the description should be translated into polish.</FPCLINE>
+      <FPCLINE>*- Normally this should be done via above mentioned perform but the PL language</FPCLINE>
+      <FPCLINE>*- hasn&apos;t been imported into SAP so no translation could be made in SAP.</FPCLINE>
+      <FPCLINE>    CASE bil_prt_com-head_detail-vbdkr-vkorg.</FPCLINE>
+      <FPCLINE>      WHEN lc_head_pl15.    &quot;When Polish</FPCLINE>
+      <FPCLINE>*- Credit Memo</FPCLINE>
+      <FPCLINE>* EMU 18042011 -  1-25513811</FPCLINE>
+      <FPCLINE>*        CONCATENATE ltp_credit_memo &apos;/Nota Kredytowa&apos; INTO ltp_credit_memo.</FPCLINE>
+      <FPCLINE>        CONCATENATE ltp_credit_memo &apos;/Faktura korygujaca&apos; INTO ltp_credit_memo.</FPCLINE>
+      <FPCLINE>        ltp_already_translated = &apos;X&apos;.</FPCLINE>
+      <FPCLINE>* RHO20110527 Special text for CZ15</FPCLINE>
+      <FPCLINE>      WHEN lc_head_cz15.    &quot;When Czech</FPCLINE>
+      <FPCLINE>        CONCATENATE ltp_credit_memo &apos;/Corrective tax document&apos; INTO ltp_credit_memo.</FPCLINE>
+      <FPCLINE>        ltp_already_translated = &apos;X&apos;.</FPCLINE>
+      <FPCLINE>      WHEN OTHERS.</FPCLINE>
+      <FPCLINE>    ENDCASE.</FPCLINE>
+      <FPCLINE>*- End insertion #26987</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* lv_heading = lc_credit_memo.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    lv_heading = ltp_credit_memo. &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>  ELSEIF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_s.</FPCLINE>
+      <FPCLINE>*   lv_heading = lc_credit_canc.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    lv_heading = ltp_credit_canc. &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>  ELSEIF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_p.</FPCLINE>
+      <FPCLINE>* lv_heading = lc_debit_memo.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>*- Start insertion IVAR01072009</FPCLINE>
+      <FPCLINE>    IF bil_prt_com-head_detail-vbdkr-vkorg = lc_head_au15.</FPCLINE>
+      <FPCLINE>      lv_heading = ltp_tax_inv.</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>*- End insertion IVAR01072009</FPCLINE>
+      <FPCLINE>      lv_heading = ltp_debit_memo.   &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>    ENDIF.                         &quot;+IVAR01072009</FPCLINE>
+      <FPCLINE>  ELSEIF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_u.</FPCLINE>
+      <FPCLINE>* lv_heading = lc_proforma_inv.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    lv_heading = ltp_proforma_inv.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>  ELSEIF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_5.</FPCLINE>
+      <FPCLINE>    lv_heading = lc_inter_inv.</FPCLINE>
+      <FPCLINE>  ELSEIF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_6.</FPCLINE>
+      <FPCLINE>    lv_heading = lc_intercredit_note.</FPCLINE>
+      <FPCLINE>  ELSEIF bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_n.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion #26987</FPCLINE>
+      <FPCLINE>*- Only for PL15 the description should be translated into polish.</FPCLINE>
+      <FPCLINE>*- Normally this should be done via above mentioned perform but the PL language</FPCLINE>
+      <FPCLINE>*- hasn&apos;t been imported into SAP so no translation could be made in SAP.</FPCLINE>
+      <FPCLINE>    CASE bil_prt_com-head_detail-vbdkr-vkorg.</FPCLINE>
+      <FPCLINE>      WHEN lc_head_pl15.    &quot;When Polish</FPCLINE>
+      <FPCLINE>*- Invoice Cancellation</FPCLINE>
+      <FPCLINE>        CONCATENATE ltp_inv_cancel &apos;/Faktura Korygujaca&apos; INTO ltp_inv_cancel.</FPCLINE>
+      <FPCLINE>        ltp_already_translated = &apos;X&apos;.</FPCLINE>
+      <FPCLINE>      WHEN OTHERS.</FPCLINE>
+      <FPCLINE>    ENDCASE.</FPCLINE>
+      <FPCLINE>*- End insertion #26987</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* lv_heading = lc_inv_cancel.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    lv_heading = ltp_inv_cancel.   &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ELSE.                                                       &quot;+#25925</FPCLINE>
+      <FPCLINE>  lv_heading = ltp_proforma_inv.                            &quot;+#25925</FPCLINE>
+      <FPCLINE>ENDIF.                                                      &quot;+#25925</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-fkart = lc_b1    OR</FPCLINE>
+      <FPCLINE>   bil_prt_com-head_detail-vbdkr-fkart = lc_b1e   OR</FPCLINE>
+      <FPCLINE>   bil_prt_com-head_detail-vbdkr-fkart = lc_b2    OR</FPCLINE>
+      <FPCLINE>   bil_prt_com-head_detail-vbdkr-fkart = lc_b2e   OR</FPCLINE>
+      <FPCLINE>   bil_prt_com-head_detail-vbdkr-fkart = lc_b3    OR</FPCLINE>
+      <FPCLINE>   bil_prt_com-head_detail-vbdkr-fkart = lc_b3e.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* lv_heading   = lc_rebate_claim.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  lv_heading   = ltp_rebate_claim.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>* lv_price    =  lc_quan1.          &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  lv_price    =  ltp_quan1.         &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>* lv_quan     =  lc_price1.         &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  lv_quan     =  ltp_price1.        &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  MOVE lv_price   TO gv_price.                     &quot;Display price heading</FPCLINE>
+      <FPCLINE>  MOVE lv_quan    TO gv_quan.                      &quot;Display quan heading</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  CONCATENATE bil_prt_com-head_detail-vbdkr-inco1 bil_prt_com-head_detail-vbdkr-inco2</FPCLINE>
+      <FPCLINE>                                         INTO bil_prt_com-head_detail-vbdkr-inco1_bez SEPARATED BY &apos; &apos; .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>IF gv_price IS INITIAL .</FPCLINE>
+      <FPCLINE>* gv_price  =  lc_price_text.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  gv_price  =  ltp_price_text. &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>* gv_quan   =  lc_quant_text.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  gv_quan   =  ltp_quant_text.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>ENDIF .</FPCLINE>
+      <FPCLINE>gv_heading = lv_heading.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CLEAR lv_heading .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>CONCATENATE bil_prt_com-head_detail-vbdkr-inco1 bil_prt_com-head_detail-vbdkr-inco2</FPCLINE>
+      <FPCLINE>                                       INTO bil_prt_com-head_detail-vbdkr-inco1_bez SEPARATED BY &apos; &apos; .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>************************** shipment date retrieval ******************************</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* insert #25925a</FPCLINE>
+      <FPCLINE>**************************condition for WIA Tax text printing *********************</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-fkart = lco_wia.</FPCLINE>
+      <FPCLINE>* YADAVAAS++</FPCLINE>
+      <FPCLINE>* Commented the below</FPCLINE>
+      <FPCLINE>*  SELECT SINGLE mwsk1</FPCLINE>
+      <FPCLINE>*         FROM konv</FPCLINE>
+      <FPCLINE>*         INTO lv_wia</FPCLINE>
+      <FPCLINE>*         WHERE knumv = bil_prt_com-head_detail-vbdkr-knumv</FPCLINE>
+      <FPCLINE>*         AND  kschl = lc_wiac</FPCLINE>
+      <FPCLINE>*         AND mwsk1 &lt;&gt; &apos; &apos;.</FPCLINE>
+      <FPCLINE>*  IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>* In S4, KONV is obsolete, so replaced the above code with the below call.</FPCLINE>
+      <FPCLINE>     TRY.</FPCLINE>
+      <FPCLINE>CL_PRC_RESULT_FACTORY=&gt;GET_INSTANCE( )-&gt;GET_PRC_RESULT( )-&gt;GET_PRICE_ELEMENT_DB(</FPCLINE>
+      <FPCLINE>  EXPORTING IT_SELECTION_ATTRIBUTE = VALUE #(</FPCLINE>
+      <FPCLINE> ( fieldname = &apos;KNUMV&apos; value = BIL_PRT_COM-HEAD_DETAIL-VBDKR-KNUMV )</FPCLINE>
+      <FPCLINE> ( fieldname = &apos;KSCHL&apos; value = lc_wiac )</FPCLINE>
+      <FPCLINE> )</FPCLINE>
+      <FPCLINE>  IMPORTING ET_PRC_ELEMENT_CLASSIC_FORMAT = DATA(LT_KONV) ).</FPCLINE>
+      <FPCLINE>DATA : LS_KONV LIKE LINE OF LT_KONV.</FPCLINE>
+      <FPCLINE>LOOP AT LT_KONV INTO LS_KONV WHERE mwsk1 &lt;&gt; &apos; &apos;.</FPCLINE>
+      <FPCLINE>  lv_wia = LS_KONV-MWSK1.</FPCLINE>
+      <FPCLINE>CLEAR LS_KONV.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE>CATCH CX_PRC_RESULT CX_SY_ITAB_LINE_NOT_FOUND .</FPCLINE>
+      <FPCLINE>  SY-SUBRC = 4.</FPCLINE>
+      <FPCLINE>ENDTRY.</FPCLINE>
+      <FPCLINE>CLEAR : lt_konv[].</FPCLINE>
+      <FPCLINE>refresh : lt_konv[].</FPCLINE>
+      <FPCLINE>  IF lv_wia is NOT INITIAL.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* Insert 1-23167251</FPCLINE>
+      <FPCLINE>* select tax text for WIA invoices</FPCLINE>
+      <FPCLINE>    CLEAR lv_ztaxtext.</FPCLINE>
+      <FPCLINE>    SELECT SINGLE ztaxtext INTO lv_ztaxtext</FPCLINE>
+      <FPCLINE>                           FROM ztax_text_det</FPCLINE>
+      <FPCLINE>                           WHERE mwsk1 = lv_wia</FPCLINE>
+      <FPCLINE>                           AND landtx = lco_wia.</FPCLINE>
+      <FPCLINE>    IF sy-subrc = 0 AND lv_ztaxtext IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>      PERFORM read_text USING lv_ztaxtext.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*    CASE lv_wia.</FPCLINE>
+      <FPCLINE>*      WHEN &apos;U5&apos;.</FPCLINE>
+      <FPCLINE>*        PERFORM read_text USING lc_u5_wia.</FPCLINE>
+      <FPCLINE>*      WHEN &apos;N5&apos;.</FPCLINE>
+      <FPCLINE>*        PERFORM read_text USING lc_n5_wia.</FPCLINE>
+      <FPCLINE>*      WHEN &apos;H5&apos;.</FPCLINE>
+      <FPCLINE>*        PERFORM read_text USING lc_h5_wia.</FPCLINE>
+      <FPCLINE>*      WHEN &apos;S5&apos;.</FPCLINE>
+      <FPCLINE>*        PERFORM read_text USING lc_s5_wia.</FPCLINE>
+      <FPCLINE>*      WHEN &apos;R5&apos;.</FPCLINE>
+      <FPCLINE>*        PERFORM read_text USING lc_r5_wia.</FPCLINE>
+      <FPCLINE>*    ENDCASE.</FPCLINE>
+      <FPCLINE>* end insert 1-23167251</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* end insert #25925a</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**************************condition for Tax text printing *************************</FPCLINE>
+      <FPCLINE>* YADAVAAS++</FPCLINE>
+      <FPCLINE>* Commented the below</FPCLINE>
+      <FPCLINE>*SELECT SINGLE mwsk1</FPCLINE>
+      <FPCLINE>*       FROM konv</FPCLINE>
+      <FPCLINE>*       INTO lv_mwsk1</FPCLINE>
+      <FPCLINE>*       WHERE knumv = bil_prt_com-head_detail-vbdkr-knumv</FPCLINE>
+      <FPCLINE>*       AND  koaid =  lc_d</FPCLINE>
+      <FPCLINE>*       AND mwsk1 &lt;&gt; &apos; &apos;.</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>** Insert 1-23167251</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>** Replace next part with access to table</FPCLINE>
+      <FPCLINE>*IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>TRY.</FPCLINE>
+      <FPCLINE>CL_PRC_RESULT_FACTORY=&gt;GET_INSTANCE( )-&gt;GET_PRC_RESULT( )-&gt;GET_PRICE_ELEMENT_DB(</FPCLINE>
+      <FPCLINE>  EXPORTING IT_SELECTION_ATTRIBUTE = VALUE #(</FPCLINE>
+      <FPCLINE> ( fieldname = &apos;KNUMV&apos; value = BIL_PRT_COM-HEAD_DETAIL-VBDKR-KNUMV )</FPCLINE>
+      <FPCLINE> ( fieldname = &apos;KOAID&apos; value = LC_D )</FPCLINE>
+      <FPCLINE>  )</FPCLINE>
+      <FPCLINE>  IMPORTING ET_PRC_ELEMENT_CLASSIC_FORMAT = DATA(lt_konv1) ).</FPCLINE>
+      <FPCLINE>DATA : ls_konv1 like LINE OF lt_konv1.</FPCLINE>
+      <FPCLINE>LOOP AT lt_konv1 INTO ls_konv1 where mwsk1 &lt;&gt; &apos; &apos;.</FPCLINE>
+      <FPCLINE>  LV_MWSK1 = ls_konv1-MWSK1.</FPCLINE>
+      <FPCLINE>CLEAR : ls_konv1.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE>CATCH CX_PRC_RESULT CX_SY_ITAB_LINE_NOT_FOUND .</FPCLINE>
+      <FPCLINE>  SY-SUBRC = 4.</FPCLINE>
+      <FPCLINE>ENDTRY.</FPCLINE>
+      <FPCLINE>CLEAR : lt_konv1[].</FPCLINE>
+      <FPCLINE>refresh : lt_konv1[].</FPCLINE>
+      <FPCLINE>*IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>if LV_MWSK1 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>* YADAVAAS--</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  CLEAR lv_ztaxtext.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE ztaxtext INTO lv_ztaxtext</FPCLINE>
+      <FPCLINE>                       FROM ztax_text_det</FPCLINE>
+      <FPCLINE>                       WHERE mwsk1 = lv_mwsk1</FPCLINE>
+      <FPCLINE>                       AND landtx = bil_prt_com-head_detail-vbdkr-landtx.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF sy-subrc = 0 AND lv_ztaxtext IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>    PERFORM read_text USING lv_ztaxtext.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  IF lv_mwsk1 EQ lc_f2 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_fr .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_fr_f2.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_g3 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_de .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_de_g3.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**  ELSEIF lv_mwsk1 EQ &apos;I1&apos; AND bil_prt_com-head_detail-vbdkr-landtx EQ &apos;IT&apos; . &quot;NIT20080617d</FPCLINE>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_i2 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_it .  &quot;NIT20080617i</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_it_i2.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**  &quot;Ellen</FPCLINE>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_e1 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_es . &quot;EM #16375</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_es_e1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_d1 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_dk . &quot;WB #22902</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_dk_d1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_n0 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_nl_no.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_n3 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_nl_n3.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_n4 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_nl_n4.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_n5 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_nl_n5.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_n6 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_nl_n6.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_n9 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_nl_n9.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_f5 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_fr_f5.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_f5 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_fr .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_fr_f5.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_f7 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_fr_f7.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_f7 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_fr .</FPCLINE>
+      <FPCLINE>*   PERFORM read_text USING lc_fr_f7.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_g5 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_de_g5.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_g5 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_de .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_de_g5.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_g7 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_de_g7.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_g7 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_de .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING lc_de_g7.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_u5 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_nl .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING  lc_gb_u5.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ELSEIF lv_mwsk1 EQ lc_u5 AND bil_prt_com-head_detail-vbdkr-landtx EQ lc_gb .</FPCLINE>
+      <FPCLINE>*    PERFORM read_text USING  lc_gb_u5.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* end insert 1-23167251</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDIF. &quot;sy-subrc</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion #25925</FPCLINE>
+      <FPCLINE>CLEAR: ltp_grossvalue_wia.</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-fkart = lco_wia.</FPCLINE>
+      <FPCLINE>  LOOP AT bil_prt_com-item_detail INTO lwa_item_detail.</FPCLINE>
+      <FPCLINE>    READ TABLE lwa_item_detail-conditions INTO lwa_item_condition WITH KEY kposn = lwa_item_detail-vbdpr-posnr</FPCLINE>
+      <FPCLINE>                                                                           kschl = &apos;VPRS&apos;.</FPCLINE>
+      <FPCLINE>    IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>      ltp_grossvalue_wia = ltp_grossvalue_wia + lwa_item_condition-kwert.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDLOOP.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*- End insertion #25925</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>***************** AMOUNT IN LOCAL CURRENCY *********************************************</FPCLINE>
+      <FPCLINE>CLEAR: ltp_kwert. &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>LOOP AT bil_prt_com-head_detail-conditions INTO lwa_conditions WHERE kbetr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*- Only the first item was used for the VAT total and this was not correct</FPCLINE>
+      <FPCLINE>*- All items should be cumulated.</FPCLINE>
+      <FPCLINE>*  EXIT. &quot;-IVAR27042009</FPCLINE>
+      <FPCLINE>  ltp_kwert = ltp_kwert + lwa_conditions-kwert. &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE>IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>* IF  lwa_conditions-kbetr &lt;&gt; lc_zero . &quot;-IVAR27042009</FPCLINE>
+      <FPCLINE>  IF  ltp_kwert &lt;&gt; lc_zero . &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>    IF bil_prt_com-head_detail-tvko-waers &lt;&gt; bil_prt_com-head_detail-vbdkr-waerk.</FPCLINE>
+      <FPCLINE>*     gv_vat_amount = lc_vat_amt.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>      IF bil_prt_com-head_detail-vbdkr-land1 EQ &apos;CA&apos; OR</FPCLINE>
+      <FPCLINE>         bil_prt_com-head_detail-vbdkr-land1 EQ &apos;US&apos; OR</FPCLINE>
+      <FPCLINE>         bil_prt_com-head_detail-vbdkr-land1 EQ &apos;AR&apos; OR   &quot;+IVAR20052009</FPCLINE>
+      <FPCLINE>         bil_prt_com-head_detail-vbdkr-land1 EQ &apos;BR&apos;.     &quot;+IVAR20052009</FPCLINE>
+      <FPCLINE>        PERFORM read_smartform_text_module USING    &apos;ZSD_BIL_TXT_VAT_AMOUNT_CA_US&apos;</FPCLINE>
+      <FPCLINE>                                                    /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                                           CHANGING ltp_vat_amt.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>*- End insertion &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      gv_vat_amount = ltp_vat_amt.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      CLEAR lv_rate .</FPCLINE>
+      <FPCLINE>******************FUNCTION MODULE FOR CURRENCY CONVERSION ********************************</FPCLINE>
+      <FPCLINE>      CALL FUNCTION &apos;CONVERT_TO_FOREIGN_CURRENCY&apos;</FPCLINE>
+      <FPCLINE>        EXPORTING</FPCLINE>
+      <FPCLINE>          date             = bil_prt_com-head_detail-vbdkr-fkdat &quot;+RHO10022010</FPCLINE>
+      <FPCLINE>*         date             = lv_date1</FPCLINE>
+      <FPCLINE>          foreign_currency = bil_prt_com-head_detail-tvko-waers</FPCLINE>
+      <FPCLINE>*         local_amount     = lwa_conditions-kwert &quot;-IVAR27042009</FPCLINE>
+      <FPCLINE>          local_amount     = ltp_kwert            &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE>          local_currency   = bil_prt_com-head_detail-vbdkr-waerk</FPCLINE>
+      <FPCLINE>        IMPORTING</FPCLINE>
+      <FPCLINE>          exchange_rate    = lv_rate</FPCLINE>
+      <FPCLINE>          foreign_amount   = gv_amt</FPCLINE>
+      <FPCLINE>          foreign_factor   = lv_fact1</FPCLINE>
+      <FPCLINE>          local_factor     = lv_fact2</FPCLINE>
+      <FPCLINE>        EXCEPTIONS</FPCLINE>
+      <FPCLINE>          no_rate_found    = 1</FPCLINE>
+      <FPCLINE>          overflow         = 2</FPCLINE>
+      <FPCLINE>          no_factors_found = 3</FPCLINE>
+      <FPCLINE>          no_spread_found  = 4</FPCLINE>
+      <FPCLINE>          derived_2_times  = 5</FPCLINE>
+      <FPCLINE>          OTHERS           = 6.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      IF lv_rate IS NOT INITIAL .</FPCLINE>
+      <FPCLINE>        lv_rate = ABS( lv_rate ) .  &quot;Remove Negative values from local variable</FPCLINE>
+      <FPCLINE>* insert 1-22056771</FPCLINE>
+      <FPCLINE>        CLEAR lv_rate3.</FPCLINE>
+      <FPCLINE>        gv_rate = lv_rate .</FPCLINE>
+      <FPCLINE>        lv_rate3 = lv_rate.</FPCLINE>
+      <FPCLINE>* end insert 1-22056771</FPCLINE>
+      <FPCLINE>*       gv_rate_text = lc_rate_text.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>        gv_rate_text = ltp_rate_text. &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>      ENDIF .</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>      gv_vat_amount = &apos; &apos;.</FPCLINE>
+      <FPCLINE>      gv_amt = &apos; &apos;.</FPCLINE>
+      <FPCLINE>      bil_prt_com-head_detail-tvko-waers = &apos; &apos; .</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ELSE .</FPCLINE>
+      <FPCLINE>    gv_vat_amount = &apos; &apos;.</FPCLINE>
+      <FPCLINE>    gv_amt = &apos; &apos;.</FPCLINE>
+      <FPCLINE>    bil_prt_com-head_detail-tvko-waers = &apos; &apos; .</FPCLINE>
+      <FPCLINE>  ENDIF .</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>  MOVE space TO gv_rate.</FPCLINE>
+      <FPCLINE>* insert 1-22056771</FPCLINE>
+      <FPCLINE>  MOVE space TO lv_rate3.</FPCLINE>
+      <FPCLINE>* end insert 1-22056771</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>**Finding the name of the ship to country**</FPCLINE>
+      <FPCLINE>SELECT SINGLE landx</FPCLINE>
+      <FPCLINE>        INTO  gv_land_shipto</FPCLINE>
+      <FPCLINE>        FROM  t005t</FPCLINE>
+      <FPCLINE>        WHERE land1 EQ bil_prt_com-head_detail-vbdkr-land1_we</FPCLINE>
+      <FPCLINE>        AND   spras EQ bil_prt_com-head_detail-vbdkr-spras.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**Finding the name of the sold to country**</FPCLINE>
+      <FPCLINE>SELECT SINGLE landx</FPCLINE>
+      <FPCLINE>        INTO  gv_land_soldto</FPCLINE>
+      <FPCLINE>        FROM  t005t</FPCLINE>
+      <FPCLINE>        WHERE land1 EQ bil_prt_com-head_detail-vbdkr-sland</FPCLINE>
+      <FPCLINE>        AND   spras EQ bil_prt_com-head_detail-vbdkr-spras.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>  MOVE gv_land_soldto  TO  gv_land_soldto_us.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*************Decimal notation*******************</FPCLINE>
+      <FPCLINE>CLEAR lwa_conditions .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT bil_prt_com-head_detail-conditions INTO lwa_conditions .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  SET COUNTRY bil_prt_com-head_detail-vbdkr-land1.</FPCLINE>
+      <FPCLINE>  IF lwa_conditions-kbetr IS NOT INITIAL AND lwa_conditions-koein = lc_per.</FPCLINE>
+      <FPCLINE>    lwa_conditions-kbetr = ( lwa_conditions-kbetr / lc_ten ) .</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* WRITE bil_prt_com-head_detail-vbdkr-netwr TO gv_netwr1. &quot;-IVAR20090320</FPCLINE>
+      <FPCLINE>  WRITE bil_prt_com-head_detail-vbdkr-netwr TO gv_netwr1 CURRENCY lwa_conditions-awein. &quot;+IVAR20090320</FPCLINE>
+      <FPCLINE>********** populating the rate field*****************</FPCLINE>
+      <FPCLINE>  IF lwa_conditions-kbetr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*    WRITE lwa_conditions-kbetr  TO gv_kbetr1. &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    IF lwa_conditions-koein = lc_per.                    &quot;+RHO-20100210</FPCLINE>
+      <FPCLINE>      WRITE lwa_conditions-kbetr  TO gv_kbetr1.          &quot;+RHO-20100210</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>      WRITE lwa_conditions-kbetr  TO gv_kbetr1 CURRENCY lwa_conditions-awein. &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>    MOVE  lwa_conditions-koein  TO   lwa_condition-koein.</FPCLINE>
+      <FPCLINE>  ELSE.</FPCLINE>
+      <FPCLINE>    MOVE &apos;&apos; TO gv_kbetr1.</FPCLINE>
+      <FPCLINE>    MOVE &apos;&apos;  TO  lwa_condition-koein.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>************* Populating condition base value **************</FPCLINE>
+      <FPCLINE>  IF lwa_conditions-kawrt IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>* #30361</FPCLINE>
+      <FPCLINE>*    WRITE lwa_conditions-kawrt TO gv_kawrt1.</FPCLINE>
+      <FPCLINE>* changes added by MuraliC041012</FPCLINE>
+      <FPCLINE>    if  lwa_conditions-krech = &apos;C&apos;.</FPCLINE>
+      <FPCLINE>        lwa_conditions-kawrt = lwa_conditions-kawrt / 10.</FPCLINE>
+      <FPCLINE>        WRITE lwa_conditions-kawrt TO gv_kawrt1 right-justified decimals 0.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    else.</FPCLINE>
+      <FPCLINE>    WRITE lwa_conditions-kawrt TO gv_kawrt1 CURRENCY lwa_conditions-awein.</FPCLINE>
+      <FPCLINE>    endif.</FPCLINE>
+      <FPCLINE>* end #30361</FPCLINE>
+      <FPCLINE>  ELSE.</FPCLINE>
+      <FPCLINE>    MOVE &apos;&apos; TO gv_kawrt1.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  WRITE lwa_conditions-kwert TO gv_kwert1. &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  IF lwa_conditions-awein IS NOT INITIAL.    &quot;+IVAR-24032010</FPCLINE>
+      <FPCLINE>    WRITE lwa_conditions-kwert TO gv_kwert1 CURRENCY lwa_conditions-awein. &quot;+IVAR-FR203.</FPCLINE>
+      <FPCLINE>  ELSE.                                      &quot;+IVAR-24032010</FPCLINE>
+      <FPCLINE>    WRITE lwa_conditions-kwert TO gv_kwert1 CURRENCY lwa_conditions-koei1.  &quot;+IVAR-24032010</FPCLINE>
+      <FPCLINE>  ENDIF.                                     &quot;+IVAR-24032010</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF lwa_conditions-kwert IS INITIAL.</FPCLINE>
+      <FPCLINE>    MOVE &apos;&apos; TO gv_kbetr1.</FPCLINE>
+      <FPCLINE>    MOVE &apos;&apos; TO gv_kawrt1.</FPCLINE>
+      <FPCLINE>    MOVE &apos;&apos; TO  lwa_condition-koein.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*  WRITE im_grossvalue TO gv_imgrossvalue. &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  IF bil_prt_com-head_detail-vbdkr-fkart = lco_wia.         &quot;+#25925</FPCLINE>
+      <FPCLINE>    WRITE ltp_grossvalue_wia TO gv_imgrossvalue CURRENCY lwa_conditions-awein. &quot;+#25925</FPCLINE>
+      <FPCLINE>  ELSE.                                                     &quot;+#25925</FPCLINE>
+      <FPCLINE>    WRITE im_grossvalue TO gv_imgrossvalue CURRENCY lwa_conditions-awein. &quot;+IVAR-FR203.</FPCLINE>
+      <FPCLINE>  ENDIF.                                                    &quot;+#25925</FPCLINE>
+      <FPCLINE>*</FPCLINE>
+      <FPCLINE>* RUME #30361</FPCLINE>
+      <FPCLINE>* Addition of currency for currencies without decimals</FPCLINE>
+      <FPCLINE>  WRITE gv_amt TO gv_amt1 CURRENCY bil_prt_com-head_detail-tvko-waers.</FPCLINE>
+      <FPCLINE>* End RUME #30361</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* insert 1-22056771</FPCLINE>
+      <FPCLINE>*  IF gv_rate IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*    WRITE gv_rate TO gv_rate1.</FPCLINE>
+      <FPCLINE>*  ENDIF.</FPCLINE>
+      <FPCLINE>  IF lv_rate3 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>    WRITE lv_rate3 TO gv_rate1.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>* end insert 1-22056771</FPCLINE>
+      <FPCLINE>  CONDENSE gv_netwr1.</FPCLINE>
+      <FPCLINE>  CONDENSE gv_imgrossvalue.</FPCLINE>
+      <FPCLINE>  MOVE  gv_kwert1 TO lwa_condition-kwert.</FPCLINE>
+      <FPCLINE>  MOVE  gv_kbetr1 TO lwa_condition-kbetr.</FPCLINE>
+      <FPCLINE>  MOVE  gv_kawrt1 TO lwa_condition-kawrt.</FPCLINE>
+      <FPCLINE>  MOVE  lwa_conditions-vtext TO lwa_condition-vtext.</FPCLINE>
+      <FPCLINE>  IF sy-tabix EQ 1.</FPCLINE>
+      <FPCLINE>    IF bil_prt_com-head_detail-vbdkr-fkart = lc_b1    OR</FPCLINE>
+      <FPCLINE>      bil_prt_com-head_detail-vbdkr-fkart = lc_b1e   OR</FPCLINE>
+      <FPCLINE>      bil_prt_com-head_detail-vbdkr-fkart = lc_b2    OR</FPCLINE>
+      <FPCLINE>      bil_prt_com-head_detail-vbdkr-fkart = lc_b2e   OR</FPCLINE>
+      <FPCLINE>      bil_prt_com-head_detail-vbdkr-fkart = lc_b3    OR</FPCLINE>
+      <FPCLINE>      bil_prt_com-head_detail-vbdkr-fkart = lc_b3e.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*     MOVE  lc_itemtot TO lwa_condition1-vtext.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>      MOVE  ltp_itemtot TO lwa_condition1-vtext.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>      MOVE   &apos;&apos; TO  lwa_condition1-koein.</FPCLINE>
+      <FPCLINE>      MOVE  gv_netwr1 TO lwa_condition1-kwert.</FPCLINE>
+      <FPCLINE>      APPEND lwa_condition1 TO  gt_conditions .</FPCLINE>
+      <FPCLINE>      CLEAR lwa_condition1.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  APPEND lwa_condition TO gt_conditions .</FPCLINE>
+      <FPCLINE>  CLEAR lwa_condition .</FPCLINE>
+      <FPCLINE>  CLEAR gv_kwert1 .</FPCLINE>
+      <FPCLINE>  CLEAR gv_kbetr1 .</FPCLINE>
+      <FPCLINE>  CLEAR gv_kawrt1 .</FPCLINE>
+      <FPCLINE>ENDLOOP .</FPCLINE>
+      <FPCLINE>*************************Append Final Amount****************************</FPCLINE>
+      <FPCLINE>*MOVE  lc_finamt TO lwa_condition1-vtext.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>MOVE  ltp_finamt TO lwa_condition1-vtext.   &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>MOVE   gv_imgrossvalue TO lwa_condition1-kwert.</FPCLINE>
+      <FPCLINE>APPEND lwa_condition1 TO  gt_conditions .</FPCLINE>
+      <FPCLINE>CLEAR:lwa_condition1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF gv_rate1 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*  ****** Append Space****************</FPCLINE>
+      <FPCLINE>  MOVE  &apos;&apos; TO lwa_condition1-vtext.</FPCLINE>
+      <FPCLINE>  MOVE  &apos;&apos; TO lwa_condition1-kbetr.</FPCLINE>
+      <FPCLINE>  MOVE   &apos;&apos;   TO lwa_condition1-kwert.</FPCLINE>
+      <FPCLINE>  APPEND lwa_condition1 TO  gt_conditions .</FPCLINE>
+      <FPCLINE>  CLEAR lwa_condition1.</FPCLINE>
+      <FPCLINE>*  ***************** Append  VAT Amount***********************</FPCLINE>
+      <FPCLINE>  MOVE  gv_vat_amount TO lwa_condition1-vtext.</FPCLINE>
+      <FPCLINE>  MOVE   bil_prt_com-head_detail-tvko-waers TO lwa_condition1-kbetr.</FPCLINE>
+      <FPCLINE>  MOVE   gv_amt1   TO lwa_condition1-kwert.</FPCLINE>
+      <FPCLINE>  APPEND lwa_condition1 TO  gt_conditions .</FPCLINE>
+      <FPCLINE>  CLEAR lwa_condition1.</FPCLINE>
+      <FPCLINE>*  *****************Append  Exchange rate*****************</FPCLINE>
+      <FPCLINE>  MOVE  gv_rate_text TO lwa_condition1-vtext.</FPCLINE>
+      <FPCLINE>  MOVE   gv_rate1 TO lwa_condition1-kbetr.</FPCLINE>
+      <FPCLINE>  APPEND lwa_condition1 TO  gt_conditions .</FPCLINE>
+      <FPCLINE>  CLEAR lwa_condition1.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*-Start insertion #26987</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-vkorg EQ lc_head_pl15.</FPCLINE>
+      <FPCLINE>*- Get corresponding Decriptions belonging to the Valuta</FPCLINE>
+      <FPCLINE>  SELECT SINGLE * INTO CORRESPONDING FIELDS OF lwa_ztcurt</FPCLINE>
+      <FPCLINE>                  FROM ztcurt</FPCLINE>
+      <FPCLINE>                  WHERE spras = /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>                    AND waers = bil_prt_com-head_detail-vbdkr-waerk.</FPCLINE>
+      <FPCLINE>  IF sy-subrc NE 0.</FPCLINE>
+      <FPCLINE>    CLEAR: lwa_ztcurt.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Write Final Amount into Words</FPCLINE>
+      <FPCLINE>  CALL FUNCTION &apos;SPELL_AMOUNT&apos;</FPCLINE>
+      <FPCLINE>   EXPORTING</FPCLINE>
+      <FPCLINE>     amount          = gv_imgrossvalue</FPCLINE>
+      <FPCLINE>     currency        = bil_prt_com-head_detail-vbdkr-waerk</FPCLINE>
+      <FPCLINE>*    FILLER          = &apos; &apos;</FPCLINE>
+      <FPCLINE>     language        = /1bcdwb/docparams-langu</FPCLINE>
+      <FPCLINE>   IMPORTING</FPCLINE>
+      <FPCLINE>     in_words        = lst_in_words</FPCLINE>
+      <FPCLINE>   EXCEPTIONS</FPCLINE>
+      <FPCLINE>     not_found       = 1</FPCLINE>
+      <FPCLINE>     too_large       = 2</FPCLINE>
+      <FPCLINE>     OTHERS          = 3.</FPCLINE>
+      <FPCLINE>  IF sy-subrc &lt;&gt; 0.</FPCLINE>
+      <FPCLINE>    CLEAR: lst_in_words.</FPCLINE>
+      <FPCLINE>  ELSE.</FPCLINE>
+      <FPCLINE>    CONCATENATE ltp_finamt</FPCLINE>
+      <FPCLINE>                &apos;:&apos;</FPCLINE>
+      <FPCLINE>                lst_in_words-word</FPCLINE>
+      <FPCLINE>                lwa_ztcurt-ktext</FPCLINE>
+      <FPCLINE>                lwa_ztcurt-z_and_word</FPCLINE>
+      <FPCLINE>                lst_in_words-decword</FPCLINE>
+      <FPCLINE>                lwa_ztcurt-ktext_dec</FPCLINE>
+      <FPCLINE>                INTO tp_final_amount_in_words</FPCLINE>
+      <FPCLINE>                SEPARATED BY space.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>  CLEAR: tp_final_amount_in_words.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*-End insertion #26987</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>******Payment Terms and conditions************</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF bil_prt_com-head_detail-tvko-vkorg EQ lc_us10.</FPCLINE>
+      <FPCLINE>* MOVE lc_payment_terms TO lwa_payment-c1.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  MOVE ltp_payment_terms TO lwa_payment-c1. &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>  MOVE bil_prt_com-head_detail-vbdkr-zterm_bez TO lwa_payment-c2.</FPCLINE>
+      <FPCLINE>  APPEND lwa_payment TO li_payment.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>  IF bil_prt_com-head_detail-vbdkr-zterm IS NOT INITIAL.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    SELECT SINGLE text1 FROM t052u INTO lv_text1 WHERE</FPCLINE>
+      <FPCLINE>      spras = bil_prt_com-head_detail-vbdkr-spras AND</FPCLINE>
+      <FPCLINE>      zterm = bil_prt_com-head_detail-vbdkr-zterm.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    IF lv_text1 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*     MOVE lc_payment_terms TO lwa_payment-c1.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>      MOVE ltp_payment_terms TO lwa_payment-c1. &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>      MOVE lv_text1 TO lwa_payment-c2.</FPCLINE>
+      <FPCLINE>      APPEND lwa_payment TO li_payment.</FPCLINE>
+      <FPCLINE>      CLEAR lwa_payment.</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>      CALL FUNCTION &apos;SD_PRINT_TERMS_OF_PAYMENT&apos;</FPCLINE>
+      <FPCLINE>        EXPORTING</FPCLINE>
+      <FPCLINE>          language         = bil_prt_com-head_detail-vbdkr-spras</FPCLINE>
+      <FPCLINE>          terms_of_payment = bil_prt_com-head_detail-vbdkr-zterm</FPCLINE>
+      <FPCLINE>        TABLES</FPCLINE>
+      <FPCLINE>          top_text         = li_string.</FPCLINE>
+      <FPCLINE>      IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>        LOOP AT li_string INTO lwa_string.</FPCLINE>
+      <FPCLINE>          CASE sy-tabix.</FPCLINE>
+      <FPCLINE>            WHEN 1.</FPCLINE>
+      <FPCLINE>*             MOVE lc_payment_terms TO lwa_payment-c1.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>              MOVE ltp_payment_terms TO lwa_payment-c1. &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>              MOVE lwa_string-line TO lwa_payment-c2.</FPCLINE>
+      <FPCLINE>              APPEND lwa_payment TO li_payment.</FPCLINE>
+      <FPCLINE>              CLEAR lwa_payment.</FPCLINE>
+      <FPCLINE>            WHEN 2.</FPCLINE>
+      <FPCLINE>              MOVE &apos; &apos; TO lwa_payment-c1.</FPCLINE>
+      <FPCLINE>              MOVE lwa_string-line TO lwa_payment-c2.</FPCLINE>
+      <FPCLINE>              APPEND lwa_payment TO li_payment.</FPCLINE>
+      <FPCLINE>              CLEAR lwa_payment.</FPCLINE>
+      <FPCLINE>            WHEN 3.</FPCLINE>
+      <FPCLINE>              MOVE &apos; &apos; TO lwa_payment-c1.</FPCLINE>
+      <FPCLINE>              MOVE lwa_string-line TO lwa_payment-c2.</FPCLINE>
+      <FPCLINE>              APPEND lwa_payment TO li_payment.</FPCLINE>
+      <FPCLINE>              CLEAR lwa_payment.</FPCLINE>
+      <FPCLINE>            WHEN OTHERS.</FPCLINE>
+      <FPCLINE>              EXIT.</FPCLINE>
+      <FPCLINE>          ENDCASE.</FPCLINE>
+      <FPCLINE>          CLEAR lwa_payment.</FPCLINE>
+      <FPCLINE>        ENDLOOP.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>      CLEAR lv_text1.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF .</FPCLINE>
+      <FPCLINE>ENDIF .</FPCLINE>
+      <FPCLINE>MOVE li_payment  TO gi_payment.</FPCLINE>
+      <FPCLINE>CLEAR li_payment .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>******End of Terms and conditions************</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>******Code for removing preceeding zeros******</FPCLINE>
+      <FPCLINE>*Removing preceeding zero from Invoice No.</FPCLINE>
+      <FPCLINE>CALL FUNCTION &apos;CONVERSION_EXIT_ALPHA_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    input  = bil_prt_com-head_detail-vbdkr-vbeln</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    output = bil_prt_com-head_detail-vbdkr-vbeln.</FPCLINE>
+      <FPCLINE>*Removing preceeding zero from Order No.</FPCLINE>
+      <FPCLINE>CALL FUNCTION &apos;CONVERSION_EXIT_ALPHA_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    input  = bil_prt_com-head_detail-vbdkr-vbeln_vauf</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    output = bil_prt_com-head_detail-vbdkr-vbeln_vauf.</FPCLINE>
+      <FPCLINE>*Removing preceeding zero from Customer No.</FPCLINE>
+      <FPCLINE>CALL FUNCTION &apos;CONVERSION_EXIT_ALPHA_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    input  = bil_prt_com-head_detail-vbdkr-kunrg</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>    output = bil_prt_com-head_detail-vbdkr-kunrg.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>******End Of Code******</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion IVAR20052009</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* SELECT SINGLE eikto INTO tp_account_no</FPCLINE>
+      <FPCLINE>*         FROM knvv</FPCLINE>
+      <FPCLINE>*         WHERE kunnr = bil_prt_com-head_detail-vbdkr-kunag</FPCLINE>
+      <FPCLINE>*           AND vkorg = bil_prt_com-head_detail-vbdkr-vkorg</FPCLINE>
+      <FPCLINE>*           AND vtweg = bil_prt_com-head_detail-vbdkr-vtweg</FPCLINE>
+      <FPCLINE>*           AND spart = bil_prt_com-head_detail-vbdkr-spart.</FPCLINE>
+      <FPCLINE>* IF sy-subrc NE 0.</FPCLINE>
+      <FPCLINE>*  CLEAR: tp_account_no.</FPCLINE>
+      <FPCLINE>* ENDIF.</FPCLINE>
+      <FPCLINE>*- End insertion IVAR20052009.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion RUME20102009</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE eikto INTO tp_account_no</FPCLINE>
+      <FPCLINE>         FROM knb1</FPCLINE>
+      <FPCLINE>         WHERE kunnr = bil_prt_com-head_detail-vbdkr-kunag</FPCLINE>
+      <FPCLINE>           AND bukrs = bil_prt_com-head_detail-vbdkr-bukrs.</FPCLINE>
+      <FPCLINE>IF sy-subrc NE 0.</FPCLINE>
+      <FPCLINE>  CLEAR: tp_account_no.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*- End insertion RUME20102009.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* RUME09122009</FPCLINE>
+      <FPCLINE>CLEAR gv_xblnr.</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-vtweg = &apos;07&apos;.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE xblnr INTO gv_xblnr</FPCLINE>
+      <FPCLINE>               FROM vbrk</FPCLINE>
+      <FPCLINE>               WHERE vbeln = bil_prt_com-head_detail-vbdkr-vbeln.</FPCLINE>
+      <FPCLINE>  IF ( sy-subrc NE 0 ) OR</FPCLINE>
+      <FPCLINE>     ( bil_prt_com-head_detail-vbdkr-vbeln = gv_xblnr ).</FPCLINE>
+      <FPCLINE>    CLEAR: gv_xblnr.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>* End RUME09122009</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*********Code For shipment******************</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-inco1_bez IS NOT INITIAL .    &quot;Move Shipment method to shipment table</FPCLINE>
+      <FPCLINE>* MOVE lc_ship_method TO lwa_shipment-c1.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  MOVE ltp_ship_method TO lwa_shipment-c1.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>  MOVE bil_prt_com-head_detail-vbdkr-inco1_bez TO lwa_shipment-c2.</FPCLINE>
+      <FPCLINE>  APPEND lwa_shipment TO li_shipment.</FPCLINE>
+      <FPCLINE>  CLEAR lwa_shipment .</FPCLINE>
+      <FPCLINE>ENDIF .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**************&quot;Vat Registration no to shipment table*************************</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-landtx NE &apos;CA&apos;.   &quot;+IVAR27042009</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF bil_prt_com-head_detail-vbdkr-stceg IS NOT INITIAL .</FPCLINE>
+      <FPCLINE>* MOVE lc_vat TO lwa_shipment-c1.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    MOVE ltp_vat TO lwa_shipment-c1.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>    MOVE bil_prt_com-head_detail-vbdkr-stceg TO lwa_shipment-c2.</FPCLINE>
+      <FPCLINE>    APPEND lwa_shipment TO li_shipment.</FPCLINE>
+      <FPCLINE>    CLEAR lwa_shipment.</FPCLINE>
+      <FPCLINE>  ENDIF .</FPCLINE>
+      <FPCLINE>*- Start insertion IVAR27042009</FPCLINE>
+      <FPCLINE>*- Select Business Nr. Field</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE * INTO CORRESPONDING FIELDS OF lst_kna1</FPCLINE>
+      <FPCLINE>           FROM kna1</FPCLINE>
+      <FPCLINE>           WHERE kunnr EQ bil_prt_com-head_detail-vbdkr-kunag.</FPCLINE>
+      <FPCLINE>  IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>    IF lst_kna1-stcd1 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>      MOVE ltp_business_nr TO lwa_shipment-c1.</FPCLINE>
+      <FPCLINE>      MOVE lst_kna1-stcd1 TO lwa_shipment-c2.</FPCLINE>
+      <FPCLINE>      APPEND lwa_shipment TO li_shipment.</FPCLINE>
+      <FPCLINE>      CLEAR lwa_shipment.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*- End insertion IVAR27042009</FPCLINE>
+      <FPCLINE>*******************&quot;date to shipment table************************************</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-vbtyp EQ lc_head_m OR bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_u OR bil_prt_com-head_detail-vbdkr-vbtyp = lc_head_5 .</FPCLINE>
+      <FPCLINE>  IF gv_date IS NOT INITIAL .</FPCLINE>
+      <FPCLINE>*   MOVE lc_shipdate TO gv_date_text.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    MOVE ltp_shipdate TO gv_date_text.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>  ENDIF .</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>****************************************************************************</FPCLINE>
+      <FPCLINE>*******In case of return move return text to shipment table***********</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-fkart EQ lc_fkart_re .</FPCLINE>
+      <FPCLINE>  IF gv_date IS NOT INITIAL .</FPCLINE>
+      <FPCLINE>*   MOVE lc_retdate TO gv_date_text.   &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>    MOVE ltp_retdate TO gv_date_text.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>  ENDIF .</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>********************Currency move to shipment table***************************</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-waerk IS NOT INITIAL .</FPCLINE>
+      <FPCLINE>* MOVE lc_doccurr TO lwa_shipment-c1.  &quot;-IVAR-FR203</FPCLINE>
+      <FPCLINE>  MOVE ltp_doccurr TO lwa_shipment-c1.  &quot;+IVAR-FR203</FPCLINE>
+      <FPCLINE>  MOVE bil_prt_com-head_detail-vbdkr-waerk TO lwa_shipment-c2.</FPCLINE>
+      <FPCLINE>  APPEND lwa_shipment TO li_shipment.</FPCLINE>
+      <FPCLINE>  CLEAR lwa_shipment .</FPCLINE>
+      <FPCLINE>ENDIF .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>****Our vat registration no</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-stceg_t001 = &apos; &apos;.</FPCLINE>
+      <FPCLINE>  gv_ourvat = &apos; &apos;.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>  gv_ourvat = ltp_out_vat_reg_no.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>************Move from local to  global table***************************</FPCLINE>
+      <FPCLINE>MOVE li_shipment TO gi_shipment.</FPCLINE>
+      <FPCLINE>CLEAR li_shipment .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**********clear the local variables**********************</FPCLINE>
+      <FPCLINE>CLEAR: lv_land1,lv_price,lv_quan,lv_mwsk1,lv_fact1,lv_fact2,lv_date1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*********************clear the work areas******************</FPCLINE>
+      <FPCLINE>CLEAR: lwa_string,lwa_conditions,lwa_condition,lwa_condition1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>****************free the internal table*********************</FPCLINE>
+      <FPCLINE>FREE: li_string,li_payment,li_shipment.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* INS RHO20111123 Add check if footer text is maintained per currency. The check is done on the following</FPCLINE>
+      <FPCLINE>* structure NL11_FOOTER_USD. If found that will be used as footer text, otherwise use standard</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CONCATENATE bil_prt_com-head_detail-vbdkr-vkorg &apos;_FOOTER_&apos; bil_prt_com-head_detail-vbdkr-waerk INTO lv_footertext_name.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE TDNAME INTO lv_footertext_name FROM STXH WHERE TDOBJECT = &apos;TEXT&apos; AND TDNAME = lv_footertext_name AND TDID = &apos;ADRS&apos;.</FPCLINE>
+      <FPCLINE>* If found, use the footer text per currency, otherwise use standard</FPCLINE>
+      <FPCLINE>IF sy-subrc = 0.</FPCLINE>
+      <FPCLINE>   bil_prt_com-head_detail-tvko-txnam_fus = lv_footertext_name.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>* END INS RHO20111123</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* INS RHO20110519 Determine footertext per country for TT Places</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-vkorg EQ lc_head_nl45.</FPCLINE>
+      <FPCLINE>   tp_footertext_name = bil_prt_com-head_detail-tvko-txnam_fus.</FPCLINE>
+      <FPCLINE>   CONCATENATE tp_footertext_name</FPCLINE>
+      <FPCLINE>              &apos;_&apos;</FPCLINE>
+      <FPCLINE>              bil_prt_com-head_detail-vbdkr-lland</FPCLINE>
+      <FPCLINE>              INTO tp_footertext_name.</FPCLINE>
+      <FPCLINE>  bil_prt_com-head_detail-tvko-txnam_fus = tp_footertext_name.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>* END INS</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*-Start insertion #25925</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-fkart EQ lco_wia.</FPCLINE>
+      <FPCLINE>  tp_footertext_name = bil_prt_com-head_detail-tvko-txnam_fus.</FPCLINE>
+      <FPCLINE>  CONCATENATE tp_footertext_name</FPCLINE>
+      <FPCLINE>              &apos;_&apos;</FPCLINE>
+      <FPCLINE>              lco_wia</FPCLINE>
+      <FPCLINE>              INTO tp_footertext_name.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- For WIA invoices only het &quot;Final Amount&quot; line should be displayed on the invoice.</FPCLINE>
+      <FPCLINE>  DELETE gt_conditions WHERE vtext NE ltp_finamt.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*-End insertion #25925</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion #26987</FPCLINE>
+      <FPCLINE>*- Only for PL15 the description should be translated into polish.</FPCLINE>
+      <FPCLINE>*- Normally this should be done via above mentioned perform but the PL language</FPCLINE>
+      <FPCLINE>*- hasn&apos;t been imported into SAP so no translation could be made in SAP.</FPCLINE>
+      <FPCLINE>CASE bil_prt_com-head_detail-vbdkr-vkorg.</FPCLINE>
+      <FPCLINE>  WHEN lc_head_pl15.    &quot;When Polish</FPCLINE>
+      <FPCLINE>    IF ltp_already_translated = &apos;&apos;.</FPCLINE>
+      <FPCLINE>      gv_heading   = &apos;Invoice/Faktura VAT&apos;.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>    ltp_original = &apos;Original/Oryginal&apos;.</FPCLINE>
+      <FPCLINE>    ltp_copy     = &apos;Copy/Kopia&apos;.</FPCLINE>
+      <FPCLINE>  WHEN lc_head_hu15.    &quot;When Hungarian</FPCLINE>
+      <FPCLINE>*   gv_heading   = &apos;Invoice&apos;.</FPCLINE>
+      <FPCLINE>    ltp_original = &apos;Original&apos;.</FPCLINE>
+      <FPCLINE>    ltp_copy     = &apos;Copy&apos;.</FPCLINE>
+      <FPCLINE>  WHEN OTHERS.</FPCLINE>
+      <FPCLINE>    &quot; Do nothing.</FPCLINE>
+      <FPCLINE>ENDCASE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Determine the Sub Heading Titel only for PL15 and HU15</FPCLINE>
+      <FPCLINE>IF bil_prt_com-head_detail-vbdkr-vkorg EQ lc_head_pl15 OR</FPCLINE>
+      <FPCLINE>   bil_prt_com-head_detail-vbdkr-vkorg EQ lc_head_hu15.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF tp_original IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>    gv_sub_heading = ltp_original.</FPCLINE>
+      <FPCLINE>  ELSE.</FPCLINE>
+      <FPCLINE>    IF tp_nr_of_copies LE 1.</FPCLINE>
+      <FPCLINE>      gv_sub_heading = ltp_copy.</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>      CONCATENATE ltp_copy tp_nr_of_copies INTO gv_sub_heading</FPCLINE>
+      <FPCLINE>                                           SEPARATED BY space.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ELSE.</FPCLINE>
+      <FPCLINE>*- Start insertion #27370</FPCLINE>
+      <FPCLINE>*- Check if the word &apos;Copy&apos; should be printed.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE * INTO CORRESPONDING FIELDS OF lwa_zvkorgcopy</FPCLINE>
+      <FPCLINE>                  FROM zvkorgcopy</FPCLINE>
+      <FPCLINE>                  WHERE vkorg = bil_prt_com-head_detail-vbdkr-vkorg.</FPCLINE>
+      <FPCLINE>  IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>    IF lwa_zvkorgcopy-z_print_copy EQ &apos;X&apos; AND tp_nr_of_copies GE 1.</FPCLINE>
+      <FPCLINE>      gv_sub_heading = ltp_copy.</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>      CLEAR: gv_sub_heading.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ELSE.</FPCLINE>
+      <FPCLINE>    CLEAR: gv_sub_heading.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>*- End insertion #27370</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*-End insertion #26987</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*- Start insertion #1-25546571-FR211</FPCLINE>
+      <FPCLINE>*- Select External Identification of Delivery Note</FPCLINE>
+      <FPCLINE>SELECT SINGLE lifex INTO tp_ext_iden_del_note</FPCLINE>
+      <FPCLINE>                    FROM likp</FPCLINE>
+      <FPCLINE>                    WHERE vbeln = bil_prt_com-head_detail-vbdkr-vbeln_vl.</FPCLINE>
+      <FPCLINE>IF sy-subrc NE 0.</FPCLINE>
+      <FPCLINE>  CLEAR: tp_ext_iden_del_note.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>*- End insertion #1-25546571-FR211</FPCLINE>
+      <FPCLINE>**Code inserted for Deleting the leading zeros for POSNR FIELD &quot; RajeshPadya</FPCLINE>
+      <FPCLINE>LOOP AT bil_prt_com-item_detail INTO lwa_item_detail.</FPCLINE>
+      <FPCLINE>    WA_ITEMPRINT-POSNR = lwa_item_detail-VBDPR-POSNR.</FPCLINE>
+      <FPCLINE>    SHIFT WA_ITEMPRINT-POSNR LEFT DELETING LEADING &apos;0&apos;.</FPCLINE>
+      <FPCLINE>    APPEND WA_ITEMPRINT TO IT_ITEMPRINT.</FPCLINE>
+      <FPCLINE>   CLEAR: WA_ITEMPRINT, lwa_item_detail.</FPCLINE>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>lv_vbeln = bil_prt_com-head_detail-vbdkr-vbeln.</FPCLINE>
+      <FPCLINE>lv_spras = &apos;E&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CALL FUNCTION &apos;READ_TEXT&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>   CLIENT                        = SY-MANDT</FPCLINE>
+      <FPCLINE>    id                            = &apos;0002&apos;</FPCLINE>
+      <FPCLINE>    language                      = lv_spras</FPCLINE>
+      <FPCLINE>    name                          =  LV_VBELN</FPCLINE>
+      <FPCLINE>    object                        =  &apos;VBBK&apos;</FPCLINE>
+      <FPCLINE>*   ARCHIVE_HANDLE                = 0</FPCLINE>
+      <FPCLINE>*   LOCAL_CAT                     = &apos; &apos;</FPCLINE>
+      <FPCLINE>* IMPORTING</FPCLINE>
+      <FPCLINE>*   HEADER                        =</FPCLINE>
+      <FPCLINE>  tables</FPCLINE>
+      <FPCLINE>     lines                         = IT_TEXT</FPCLINE>
+      <FPCLINE> EXCEPTIONS</FPCLINE>
+      <FPCLINE>   ID                            = 1</FPCLINE>
+      <FPCLINE>   LANGUAGE                      = 2</FPCLINE>
+      <FPCLINE>   NAME                          = 3</FPCLINE>
+      <FPCLINE>   NOT_FOUND                     = 4</FPCLINE>
+      <FPCLINE>   OBJECT                        = 5</FPCLINE>
+      <FPCLINE>   REFERENCE_CHECK               = 6</FPCLINE>
+      <FPCLINE>   WRONG_ACCESS_TO_ARCHIVE       = 7</FPCLINE>
+      <FPCLINE>   OTHERS                        = 8.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF sy-subrc &lt;&gt; 0.</FPCLINE>
+      <FPCLINE>* MESSAGE ID SY-MSGID TYPE SY-MSGTY NUMBER SY-MSGNO</FPCLINE>
+      <FPCLINE>*         WITH SY-MSGV1 SY-MSGV2 SY-MSGV3 SY-MSGV4.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT IT_TEXT INTO WA_TEXT.</FPCLINE>
+      <FPCLINE>  GV_TEXTLINE = WA_TEXT-TDLINE.</FPCLINE>
+      <FPCLINE>  ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**Code ended for deleting leading zeros &quot; RajeshPadya</FPCLINE>
+     </INITIALIZATION>
+     <FORMS>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;      Form  read_smartform_text_module</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>FORM read_smartform_text_module USING    u_smart_text TYPE tdsfname</FPCLINE>
+      <FPCLINE>                                         u_spras      TYPE spras</FPCLINE>
+      <FPCLINE>                                CHANGING c_output     TYPE string.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  DATA: lwa_languages TYPE ssfrlang,</FPCLINE>
+      <FPCLINE>        lta_text      TYPE tsftext,</FPCLINE>
+      <FPCLINE>        lwa_text      TYPE tline.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  CLEAR: lwa_languages,</FPCLINE>
+      <FPCLINE>         c_output.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  lwa_languages-langu1 = u_spras.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  CALL FUNCTION &apos;SSFRT_READ_TEXTMODULE&apos;</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    i_textmodule             = u_smart_text</FPCLINE>
+      <FPCLINE>    i_languages              = lwa_languages</FPCLINE>
+      <FPCLINE>  IMPORTING</FPCLINE>
+      <FPCLINE>*   O_LANGU                  =</FPCLINE>
+      <FPCLINE>    o_text                   = lta_text</FPCLINE>
+      <FPCLINE> EXCEPTIONS</FPCLINE>
+      <FPCLINE>   error                    = 1</FPCLINE>
+      <FPCLINE>   language_not_found       = 2</FPCLINE>
+      <FPCLINE>   OTHERS                   = 3.</FPCLINE>
+      <FPCLINE>  IF sy-subrc &lt;&gt; 0.</FPCLINE>
+      <FPCLINE>    CLEAR: c_output.</FPCLINE>
+      <FPCLINE>  ELSE.</FPCLINE>
+      <FPCLINE>    READ TABLE lta_text INTO lwa_text INDEX 1.</FPCLINE>
+      <FPCLINE>    c_output = lwa_text-tdline.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDFORM.                    &quot;read_smartform_text_module</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;      Form  read_text</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>FORM read_text USING export_text.&quot; changing   gv_export_texts  type string .</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;  T Y P E S         D E C L A R A T I O N</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>  TYPES : BEGIN OF lt_text_lines.</FPCLINE>
+      <FPCLINE>          INCLUDE STRUCTURE tline.</FPCLINE>
+      <FPCLINE>  TYPES : END OF lt_text_lines.</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;  T A B L E S         D E C L A R A T I O N</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>  DATA: BEGIN OF lv_text_header_read.</FPCLINE>
+      <FPCLINE>          INCLUDE STRUCTURE thead.</FPCLINE>
+      <FPCLINE>  DATA: END OF lv_text_header_read.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  DATA it_text_lines TYPE TABLE OF lt_text_lines.</FPCLINE>
+      <FPCLINE>  DATA wa_text_lines TYPE  lt_text_lines.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  DATA :  lv_gen1     TYPE tline-tdline ,</FPCLINE>
+      <FPCLINE>          lv_gentxt   TYPE string,</FPCLINE>
+      <FPCLINE>          txt         TYPE thead-tdname.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>*&amp;  C O N S T A N T S   D E C L A R A T I O N</FPCLINE>
+      <FPCLINE>*&amp;---------------------------------------------------------------------*</FPCLINE>
+      <FPCLINE>  CONSTANTS :       lc_st_text           TYPE  tdid      VALUE  &apos;ST&apos; ,</FPCLINE>
+      <FPCLINE>                    lc_text_text         TYPE  tdobject  VALUE  &apos;TEXT&apos; .</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  CLEAR  :  wa_text_lines,gv_export_texts,lv_gen1,txt.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  REFRESH:  it_text_lines.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  txt = export_text.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  CALL FUNCTION &apos;READ_TEXT&apos;</FPCLINE>
+      <FPCLINE>            EXPORTING</FPCLINE>
+      <FPCLINE>*     CLIENT                        = SY-MANDT</FPCLINE>
+      <FPCLINE>      id                            = lc_st_text</FPCLINE>
+      <FPCLINE>      language                      = sy-langu</FPCLINE>
+      <FPCLINE>      name                          = txt</FPCLINE>
+      <FPCLINE>      object                        = lc_text_text</FPCLINE>
+      <FPCLINE>    IMPORTING</FPCLINE>
+      <FPCLINE>      header                        = lv_text_header_read</FPCLINE>
+      <FPCLINE>    TABLES</FPCLINE>
+      <FPCLINE>      lines                         = it_text_lines</FPCLINE>
+      <FPCLINE>    EXCEPTIONS</FPCLINE>
+      <FPCLINE>      id                            = 1</FPCLINE>
+      <FPCLINE>      language                      = 2</FPCLINE>
+      <FPCLINE>      name                          = 3</FPCLINE>
+      <FPCLINE>      not_found                     = 4</FPCLINE>
+      <FPCLINE>      object                        = 5</FPCLINE>
+      <FPCLINE>      reference_check               = 6</FPCLINE>
+      <FPCLINE>      wrong_access_to_archive       = 7</FPCLINE>
+      <FPCLINE>      OTHERS                        = 8.</FPCLINE>
+      <FPCLINE>  LOOP AT it_text_lines INTO wa_text_lines.</FPCLINE>
+      <FPCLINE>    lv_gen1 = wa_text_lines-tdline .</FPCLINE>
+      <FPCLINE>    CONCATENATE gv_export_texts lv_gen1  INTO gv_export_texts .</FPCLINE>
+      <FPCLINE>  ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDFORM.                    &quot;read_text</FPCLINE>
+     </FORMS>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

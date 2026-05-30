@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Avalara related functions</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZTAX_UTILF01</SOBJ_NAME>
+    <SOBJ_NAME>LZTAX_UTILTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZTAX_UTIL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZTAX_UPDATE_AUDIT_REGISTER</FUNCNAME>
+     <SHORT_TEXT>Update Avalara Audit DB for tax calculated outside of SAP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CVBRK</PARAMETER>
+       <DBFIELD>VBRK</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>XACCIT</PARAMETER>
+       <DBFIELD>ACCIT</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DOC_NUMBER</PARAMETER>
+       <DBFIELD>VBRK-VBELN</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>CVBRP</PARAMETER>
+       <DBSTRUCT>VBRPVB</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>CKOMV</PARAMETER>
+       <DBSTRUCT>KOMV</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR_CALLING_AVALARA</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CVBRK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Billing Document: Header Data</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XACCIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Accounting Interface: Item Information</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DOC_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Billing Document</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CVBRP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Reference Structure for XVBRP/YVBRP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CKOMV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pricing Communications-Condition Record</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_CALLING_AVALARA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Error calling Avalara</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

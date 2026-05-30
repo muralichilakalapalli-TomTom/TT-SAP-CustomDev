@@ -1,0 +1,4 @@
+FUNCTION-POOL ZUPDATE.                      "MESSAGE-ID .
+
+
+FIELD-SYMBOLS : <LFS_FIELD> .
